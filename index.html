@@ -1,0 +1,1377 @@
+<!DOCTYPE html>
+<html lang="en" class="overflow-x-hidden">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikhil Events & Entertainments | Best Event Planners in South India</title>
+    <meta name="description"
+        content="Nikhil Events & Entertainments - Turning Your Moments into Unforgettable Celebrations. Wedding, Birthday, Corporate, and Decoration services across South India.">
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Outfit:wght@500;700;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="bg-black font-sans text-white overflow-x-hidden w-full">
+
+    <!-- Navbar -->
+    <nav class="fixed top-0 w-full bg-black/80 backdrop-blur-md z-50 border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20 flex-nowrap">
+                <div class="flex-shrink-0 flex items-center gap-2">
+                    <img class="h-12 w-auto rounded-xl" src="./logo.jpeg" alt="Nikhil Events Logo">
+                    <div class="flex flex-col">
+                        <span class="text-primary font-outfit font-bold text-base sm:text-xl leading-none">NIKHIL
+                            EVENTS</span>
+                        <span
+                            class="text-[7px] sm:text-[10px] tracking-[0.2em] text-gray-500 uppercase leading-none mt-1">&
+                            Entertainments</span>
+                    </div>
+                </div>
+
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="text-primary font-semibold transition-colors">Home</a>
+                    <a href="about.html"
+                        class="text-gray-300 hover:text-primary font-medium transition-colors">About</a>
+                    <a href="services.html"
+                        class="text-gray-300 hover:text-primary font-medium transition-colors">Services</a>
+                    <a href="gallery.html"
+                        class="text-gray-300 hover:text-primary font-medium transition-colors">Gallery</a>
+                    <a href="contact.html"
+                        class="text-gray-300 hover:text-primary font-medium transition-colors">Contact</a>
+                    <a href="contact.html"
+                        class="bg-primary text-white px-6 py-2.5 rounded-full font-bold shadow-lg shadow-red-500/30 hover:scale-105 active:scale-95 transition-all">Book
+                        Now</a>
+                </div>
+
+                <div class="md:hidden">
+                    <button id="mobile-menu-btn" class="text-gray-700">
+                        <i data-lucide="menu" class="w-8 h-8"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-black border-t border-white/10 py-4 px-4 space-y-3">
+            <a href="index.html" class="block text-gray-300 hover:text-primary font-medium">Home</a>
+            <a href="about.html" class="block text-gray-300 hover:text-primary font-medium">About</a>
+            <a href="services.html" class="block text-gray-300 hover:text-primary font-medium">Services</a>
+            <a href="gallery.html" class="block text-gray-300 hover:text-primary font-medium">Gallery</a>
+            <a href="contact.html" class="block text-gray-300 hover:text-primary font-medium">Contact</a>
+            <a href="contact.html" class="block text-center bg-primary text-white px-6 py-3 rounded-xl font-bold">Book
+                Now</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative h-screen flex items-center justify-center pt-20 overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="./images/hero.png" alt="Grand Stage Decoration" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent"></div>
+        </div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-4 w-full" data-aos="fade-up">
+            <h1 id="hero-title" class="text-3xl sm:text-4xl md:text-8xl font-black text-white font-outfit mb-6 leading-[1.1] typewriter-cursor">
+                Nikhil Events <br class="hidden sm:block"><span class="text-primary">&</span> Entertainments
+            </h1>
+            <p id="hero-desc" class="text-lg md:text-2xl text-gray-200 mb-10 max-w-2xl font-light">
+                Turning Your Moments into Unforgettable Celebrations. We specialize in premium decorations and expert
+                event management.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4">
+                <a id="btn-book" href="contact.html"
+                    class="bg-primary text-white px-8 py-4 rounded-full font-bold text-lg shadow-xl shadow-red-600/40 hover:scale-105 active:scale-95 transition-all text-center opacity-0">Book
+                    Now</a>
+                <a id="btn-services" href="services.html"
+                    class="bg-white/10 backdrop-blur-md border border-white/30 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white/20 transition-all text-center opacity-0">View
+                    Services</a>
+            </div>
+        </div>
+
+        <div
+            class="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce flex flex-col items-center text-white/50">
+            <span class="text-xs uppercase tracking-widest mb-2">Scroll Down</span>
+            <i data-lucide="chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Our Journey Section (From About) -->
+    <!-- Highlights Section -->
+    <section class="py-16 md:py-32 bg-black overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div data-aos="fade-right">
+                    <h2 class="text-primary font-bold tracking-widest uppercase text-sm mb-3">Our Story</h2>
+                    <h3 class="text-4xl md:text-5xl font-black text-white font-outfit mb-8">Founded on Passion</h3>
+                    <p class="text-white/70 text-lg leading-relaxed mb-6">
+                        Started with a passion for creativity, <strong>Nikhil Events & Entertainments</strong> has grown
+                        into a trusted name in event decoration and management across South India.
+                    </p>
+                    <p class="text-white/70 text-lg leading-relaxed mb-8">
+                        What inspired our business is the simple joy of transforming spaces into dreamlike settings.
+                        Over time, our growth has been fueled by a relentless commitment to excellence and the smiles of
+                        our satisfied clients.
+                    </p>
+                    <div class="flex items-center gap-4 text-gray-500 font-medium italic">
+                        <i data-lucide="quote" class="w-8 h-8 text-primary/20"></i>
+                        <span>"We believe every event deserves to be unique, regardless of its scale."</span>
+                    </div>
+                </div>
+                <div class="relative" data-aos="zoom-in">
+                    <img src="./images/hero.png" alt="Grand Celebration" class="rounded-[4rem] shadow-2xl">
+                    <div
+                        class="absolute -top-10 -right-10 bg-primary p-10 rounded-full shadow-2xl text-white hidden md:block">
+                        <i data-lucide="stars" class="w-12 h-12"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Founder Section (From About) -->
+    <section id="founder" class="py-24 bg-zinc-950 border-y border-white/5">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-20 items-center">
+                <div data-aos="fade-right">
+                    <div
+                        class="inline-block px-4 py-1.5 bg-red-100 text-primary font-bold text-sm tracking-widest uppercase rounded-full mb-6">
+                        Founder & Visionary</div>
+                    <h2 class="text-4xl md:text-5xl font-black font-outfit text-white mb-8">Mr. Nikhil Chowdary</h2>
+
+                    <!-- Founder Photo - Mobile Only (Visible after name on mobile) -->
+                    <div class="block lg:hidden mb-10 relative" data-aos="fade-up">
+                        <div
+                            class="aspect-[4/5] rounded-[3.rem] bg-zinc-900 overflow-hidden shadow-2xl border-8 border-white/5">
+                            <img src="./images/Founder.jpeg" alt="Mr. Nikhil Chowdary"
+                                class="w-full h-full object-cover">
+                            <div class="absolute inset-0 bg-gradient-to-t from-primary/30 to-transparent"></div>
+                        </div>
+                        <div class="absolute -bottom-6 -right-6 h-40 w-40 bg-primary/10 rounded-full blur-3xl -z-10">
+                        </div>
+                    </div>
+
+                    <p class="text-white/70 text-lg leading-relaxed mb-6">
+                        An experienced event planner with a deep-rooted expertise in managing high-stakes celebrations.
+                        Mr. Nikhil Chowdary has successfully delivered a wide range of events—from intimate gatherings
+                        to large-scale corporate functions.
+                    </p>
+                    <p class="text-white/70 text-lg leading-relaxed mb-10">
+                        His focus has always been on creating a reliable service that clients can trust, ensuring that
+                        every detail is perfectly aligned with the client's vision.
+                    </p>
+
+                    <div class="grid grid-cols-2 gap-8">
+                        <div>
+                            <div class="text-primary font-black text-4xl md:text-5xl mb-1">600+</div>
+                            <div class="text-gray-500 text-xs font-bold uppercase tracking-widest">Events Delivered
+                            </div>
+                        </div>
+                        <div>
+                            <div class="text-primary font-black text-4xl md:text-5xl mb-1">100%</div>
+                            <div class="text-gray-500 text-xs font-bold uppercase tracking-widest">Satisfaction rate
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Founder Photo - Desktop Only (Visible on the right side) -->
+                <div class="hidden lg:block relative" data-aos="fade-left">
+                    <div
+                        class="aspect-[4/5] rounded-[3rem] bg-zinc-900 overflow-hidden shadow-2xl border-8 border-white/5">
+                        <img src="./images/Founder.jpeg" alt="Mr. Nikhil Chowdary" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-primary/30 to-transparent"></div>
+                    </div>
+                    <div class="absolute -bottom-6 -right-6 h-40 w-40 bg-primary/10 rounded-full blur-3xl -z-10"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Pillars Section (From About) -->
+    <section id="pillars" class="py-24 bg-black">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="p-10 rounded-[2.5rem] bg-zinc-950 hover:bg-stone-900 hover:shadow-xl transition-all border border-white/5"
+                    data-aos="fade-up">
+                    <i data-lucide="hand-heart" class="w-10 h-10 text-primary mb-6"></i>
+                    <h4 class="text-xl font-bold mb-4">Customer Commitment</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">We prioritize your happiness by delivering exactly
+                        what you envision for your big day.</p>
+                </div>
+                <div class="p-10 rounded-[2.5rem] bg-zinc-950 hover:bg-stone-900 hover:shadow-xl transition-all border border-white/5"
+                    data-aos="fade-up" data-aos-delay="100">
+                    <i data-lucide="palette" class="w-10 h-10 text-primary mb-6"></i>
+                    <h4 class="text-xl font-bold mb-4">Creativity & Customization</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">Every event is uniquely designed based on themes
+                        that reflect your unique style.</p>
+                </div>
+                <div class="p-10 rounded-[2.5rem] bg-zinc-950 hover:bg-stone-900 hover:shadow-xl transition-all border border-white/5"
+                    data-aos="fade-up" data-aos-delay="200">
+                    <i data-lucide="clock-check" class="w-10 h-10 text-primary mb-6"></i>
+                    <h4 class="text-xl font-bold mb-4">Timely Execution</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">We ensure all events are executed on time without
+                        ever compromising on setup quality.</p>
+                </div>
+                <div class="p-10 rounded-[2.5rem] bg-zinc-950 hover:bg-stone-900 hover:shadow-xl transition-all border border-white/5"
+                    data-aos="fade-up" data-aos-delay="300">
+                    <i data-lucide="shield-check" class="w-10 h-10 text-primary mb-6"></i>
+                    <h4 class="text-xl font-bold mb-4">Trust & Reliability</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">Join hundreds of happy clients and top brands who
+                        trust us for their important moments.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Approach Section (From About) -->
+    <!-- Contact/CTA Section -->
+    <section class="py-16 md:py-24 bg-primary text-white relative overflow-hidden">
+        <div class="relative z-10 max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-primary font-bold tracking-widest uppercase text-sm mb-3">Unique Point</h2>
+                <h3 class="text-4xl md:text-5xl font-black font-outfit">Our Proven Approach</h3>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 relative">
+                <div class="hidden md:block absolute top-[60px] left-[15%] right-[15%] h-px bg-white/10"></div>
+                <div class="flex flex-col items-center text-center" data-aos="zoom-in" data-aos-delay="100">
+                    <div
+                        class="w-20 h-20 bg-primary rounded-full flex items-center justify-center mb-8 relative z-20 shadow-2xl">
+                        <span class="text-2xl font-bold">1</span>
+                    </div>
+                    <h4 class="text-xl font-bold mb-4">Understand</h4>
+                    <p class="text-white/60 text-sm">Deeply understanding your vision and requirements.</p>
+                </div>
+                <div class="flex flex-col items-center text-center" data-aos="zoom-in" data-aos-delay="200">
+                    <div
+                        class="w-20 h-20 bg-primary rounded-full flex items-center justify-center mb-8 relative z-20 shadow-2xl">
+                        <span class="text-2xl font-bold">2</span>
+                    </div>
+                    <h4 class="text-xl font-bold mb-4">Plan</h4>
+                    <p class="text-white/60 text-sm">Designing creative concepts tailored exclusively for you.</p>
+                </div>
+                <div class="flex flex-col items-center text-center" data-aos="zoom-in" data-aos-delay="300">
+                    <div
+                        class="w-20 h-20 bg-primary rounded-full flex items-center justify-center mb-8 relative z-20 shadow-2xl">
+                        <span class="text-2xl font-bold">3</span>
+                    </div>
+                    <h4 class="text-xl font-bold mb-4">Execute</h4>
+                    <p class="text-white/60 text-sm">Turning plans into reality with meticulous perfection.</p>
+                </div>
+                <div class="flex flex-col items-center text-center" data-aos="zoom-in" data-aos-delay="400">
+                    <div
+                        class="w-20 h-20 bg-primary rounded-full flex items-center justify-center mb-8 relative z-20 shadow-2xl">
+                        <span class="text-2xl font-bold">4</span>
+                    </div>
+                    <h4 class="text-xl font-bold mb-4">Satisfy</h4>
+                    <p class="text-white/60 text-sm">Ensuring 100% client satisfaction after the event is over.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Meet Our Team Section (From About) -->
+    <section id="team" class="py-24 bg-black border-t border-white/5">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-primary font-bold tracking-widest uppercase text-sm mb-3">The Experts Behind</h2>
+                <h3 class="text-4xl md:text-5xl font-black text-white font-outfit">Meet Our Expert Team</h3>
+                <div class="w-20 h-1 bg-primary mx-auto mt-6"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
+                <!-- Padakanta Naresh -->
+                <div class="group" data-aos="fade-up" data-aos-delay="50">
+                    <div
+                        class="relative mb-6 overflow-hidden rounded-[2.5rem] aspect-[3/4] shadow-lg group-hover:shadow-2xl transition-all">
+                        <img src="./images/M 5.jpeg" alt="Padakanta Naresh"
+                            class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700">
+                        <div class="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent">
+                            <p class="text-white font-bold text-lg">Padakanta Naresh</p>
+                            <p class="text-primary font-medium text-sm">Art Director</p>
+                        </div>
+                    </div>
+                    <div class="px-2">
+                        <p class="text-primary font-bold text-xs uppercase tracking-widest mb-2">BA Arts | 18 Years Exp
+                        </p>
+                        <p class="text-white/70 text-sm leading-relaxed mb-4 italic font-medium">"Cinematic stage design
+                            and visual perfection since 2017."</p>
+                        <p class="text-white/50 text-xs leading-relaxed mb-4">Worked As Art Director For Movies & Events
+                            From 2017 Part Of Nikhil Events.</p>
+                    </div>
+                </div>
+                <!-- Md. Raoof -->
+                <div class="group" data-aos="fade-up" data-aos-delay="100">
+                    <div
+                        class="relative mb-6 overflow-hidden rounded-[2.5rem] aspect-[3/4] shadow-lg group-hover:shadow-2xl transition-all">
+                        <img src="./images/M 4 .jpeg" alt="Md. Raoof"
+                            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                        <div class="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent">
+                            <p class="text-white font-bold text-lg">Md. Raoof(Rehan)</p>
+                            <p class="text-primary font-medium text-sm">Managing Partner</p>
+                        </div>
+                    </div>
+                    <div class="px-2">
+                        <p class="text-primary font-bold text-xs uppercase tracking-widest mb-2">Operations Specialist
+                        </p>
+                        <p class="text-white/70 text-sm leading-relaxed mb-4 italic font-medium">"12 Years of industry
+                            excellence with 999 events, Akarshna & Progems."</p>
+                        <p class="text-white/50 text-xs leading-relaxed mb-4">Massive expertise in large-scale event
+                            operations since 2017.</p>
+                    </div>
+                </div>
+                <!-- Bhanu Prakash -->
+                <div class="group" data-aos="fade-up" data-aos-delay="200">
+                    <div
+                        class="relative mb-6 overflow-hidden rounded-[2.5rem] aspect-[3/4] shadow-lg group-hover:shadow-2xl transition-all">
+                        <img src="./images/M 1.jpeg" alt="Bhanu Prakash"
+                            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                        <div class="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent">
+                            <p class="text-white font-bold text-lg">Bhanu Prakash</p>
+                            <p class="text-primary font-medium text-sm">CRM</p>
+                        </div>
+                    </div>
+                    <div class="px-2">
+                        <p class="text-primary font-bold text-xs uppercase tracking-widest mb-2">Relationship Specialist
+                        </p>
+                        <p class="text-white/70 text-sm leading-relaxed mb-4 italic">"Expert in creative decoration
+                            concepts and execution strength."</p>
+                        <p class="text-white/50 text-xs leading-relaxed mb-4">Ex-Assistant Manager at HCL. Leading
+                            client relations since 2017.</p>
+                    </div>
+                </div>
+                <!-- Vamshidhar -->
+                <div class="group" data-aos="fade-up" data-aos-delay="300">
+                    <div
+                        class="relative mb-6 overflow-hidden rounded-[2.5rem] aspect-[3/4] shadow-lg group-hover:shadow-2xl transition-all">
+                        <img src="./images/M 2.jpeg" alt="Vamshidhar"
+                            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                        <div class="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent">
+                            <p class="text-white font-bold text-lg">Vamshidhar</p>
+                            <p class="text-primary font-medium text-sm">Marketing Manager</p>
+                        </div>
+                    </div>
+                    <div class="px-2">
+                        <p class="text-primary font-bold text-xs uppercase tracking-widest mb-2">Growth Strategist</p>
+                        <p class="text-white/70 text-sm leading-relaxed mb-4 italic">"Master of brand presence and
+                            strategic market engagement."</p>
+                        <p class="text-white/50 text-xs leading-relaxed mb-4">Expert in modern marketing. Building our
+                            brand presence since 2018.</p>
+                    </div>
+                </div>
+                <!-- Vishal -->
+                <div class="group" data-aos="fade-up" data-aos-delay="400">
+                    <div
+                        class="relative mb-6 overflow-hidden rounded-[2.5rem] aspect-[3/4] shadow-lg group-hover:shadow-2xl transition-all">
+                        <img src="./images/M 3.jpeg" alt="Vishal"
+                            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                        <div class="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent">
+                            <p class="text-white font-bold text-lg">Srimanthula Vishal</p>
+                            <p class="text-primary font-medium text-sm">Production Manager</p>
+                        </div>
+                    </div>
+                    <div class="px-2">
+                        <p class="text-primary font-bold text-xs uppercase tracking-widest mb-2">Production Specialist
+                        </p>
+                        <p class="text-white/70 text-sm leading-relaxed mb-4 italic">"Expert in high-end stage
+                            production and technical perfection."</p>
+                        <p class="text-white/50 text-xs leading-relaxed mb-4">Former Wizcraft specialist. Turning
+                            designs into realities since 2021.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision, Mission, Values (From About) -->
+    <section id="vision-values" class="py-24 bg-black">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-zinc-950 p-12 rounded-3xl shadow-sm border border-white/5 hover:shadow-xl transition-all"
+                data-aos="fade-up" data-aos-delay="100">
+                <div class="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center text-primary mb-8">
+                    <i data-lucide="eye" class="w-8 h-8"></i>
+                </div>
+                <h4 class="text-2xl font-bold mb-4 font-outfit text-white">Our Vision</h4>
+                <p class="text-white/50 leading-relaxed text-sm">To become a leading event management company known for
+                    creativity and excellence.</p>
+            </div>
+            <div class="bg-zinc-950 p-12 rounded-3xl shadow-sm border border-white/5 hover:shadow-xl transition-all"
+                data-aos="fade-up" data-aos-delay="200">
+                <div class="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center text-primary mb-8">
+                    <i data-lucide="target" class="w-8 h-8"></i>
+                </div>
+                <h4 class="text-2xl font-bold mb-4 font-outfit text-white">Our Mission</h4>
+                <p class="text-white/50 leading-relaxed text-sm">To deliver high-quality, memorable events with complete
+                    customer satisfaction.</p>
+            </div>
+            <div class="bg-zinc-950 p-12 rounded-3xl shadow-sm border border-white/5 hover:shadow-xl transition-all"
+                data-aos="fade-up" data-aos-delay="300">
+                <div class="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center text-primary mb-8">
+                    <i data-lucide="award" class="w-8 h-8"></i>
+                </div>
+                <h4 class="text-2xl font-bold mb-4 font-outfit text-white">Our Values</h4>
+                <ul class="text-white/50 space-y-2 text-sm">
+                    <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-primary"></i>
+                        Creativity & Quality</li>
+                    <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-primary"></i>
+                        Commitment & Customer First</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Full Services Grid (From Services) -->
+    <section id="services-full" class="py-24 bg-black">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-primary font-bold tracking-widest uppercase text-sm mb-3">Our Expertise</h2>
+                <h3 class="text-4xl md:text-5xl font-black text-white font-outfit">Comprehensive Event Services</h3>
+                <div class="w-20 h-1 bg-primary mx-auto mt-6"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Anniversary/Birthday -->
+                <div class="bg-black rounded-3xl shadow-sm border border-white/5 hover:shadow-2xl hover:-translate-y-2 transition-all group overflow-hidden"
+                    data-aos="fade-up">
+                    <div class="h-64 overflow-hidden relative">
+                        <img src="./images/birthday.png" alt="Birthday Decorations"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold mb-4 font-outfit text-white">Birthday Decorations</h3>
+                        <p class="text-white/60 leading-relaxed mb-6">Creative themed decorations with balloons, unique
+                            setups, and personalized backdrops.</p>
+                        <a href="https://wa.me/919966997141?text=I%20want%20to%20enquire%20about%20Birthday%20Decorations"
+                            class="text-primary font-bold inline-flex items-center gap-2 group-hover:gap-4 transition-all">Enquire
+                            Now <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
+                    </div>
+                </div>
+
+                <!-- Sangeet -->
+                <div class="bg-black rounded-3xl shadow-sm border border-white/5 hover:shadow-2xl hover:-translate-y-2 transition-all group overflow-hidden"
+                    data-aos="fade-up" data-aos-delay="100">
+                    <div class="h-64 overflow-hidden relative">
+                        <img src="./images/sangeet.png" alt="Sangeet Events"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold mb-4 font-outfit text-white">Sangeet Events</h3>
+                        <p class="text-white/60 leading-relaxed mb-6">Vibrant event planning with stunning stage decor,
+                            professional lighting, and sound setups.</p>
+                        <a href="https://wa.me/919966997141?text=I%20want%20to%20enquire%20about%20Sangeet%20Events"
+                            class="text-primary font-bold inline-flex items-center gap-2 group-hover:gap-4 transition-all">Enquire
+                            Now <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
+                    </div>
+                </div>
+
+                <!-- Wedding -->
+                <div class="bg-black rounded-3xl shadow-sm border border-white/5 hover:shadow-2xl hover:-translate-y-2 transition-all group overflow-hidden"
+                    data-aos="fade-up" data-aos-delay="200">
+                    <div class="h-64 overflow-hidden relative">
+                        <img src="./images/wedding.png" alt="Wedding Planning"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold mb-4 font-outfit text-white">Wedding Planning</h3>
+                        <p class="text-white/60 leading-relaxed mb-6">Complete end-to-end wedding management, from
+                            mandap decoration to guest management.</p>
+                        <a href="https://wa.me/919966997141?text=I%20want%20to%20enquire%20about%20Wedding%20Planning"
+                            class="text-primary font-bold inline-flex items-center gap-2 group-hover:gap-4 transition-all">Enquire
+                            Now <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
+                    </div>
+                </div>
+
+                <!-- House Warming -->
+                <div class="bg-black rounded-3xl shadow-sm border border-white/5 hover:shadow-2xl hover:-translate-y-2 transition-all group overflow-hidden"
+                    data-aos="fade-up">
+                    <div class="h-64 overflow-hidden relative">
+                        <img src="./images/housewarming.png" alt="House Warming"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold mb-4 font-outfit text-white">House Warming</h3>
+                        <p class="text-white/60 leading-relaxed mb-6">Traditional and elegant decoration setups for
+                            Gruhapravesam ceremonies.</p>
+                        <a href="https://wa.me/919966997141?text=I%20want%20to%20enquire%20about%20House%20Warming%20Decorations"
+                            class="text-primary font-bold inline-flex items-center gap-2 group-hover:gap-4 transition-all">Enquire
+                            Now <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
+                    </div>
+                </div>
+
+                <!-- Mall Events -->
+                <div class="bg-black rounded-3xl shadow-sm border border-white/5 hover:shadow-2xl hover:-translate-y-2 transition-all group overflow-hidden"
+                    data-aos="fade-up" data-aos-delay="100">
+                    <div class="h-64 overflow-hidden relative">
+                        <img src="./images/mall.png" alt="Mall Events"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold mb-4 font-outfit text-white">Mall Events</h3>
+                        <p class="text-white/60 leading-relaxed mb-6">Professional promotional setups and engaging
+                            layouts for malls and brand launches.</p>
+                        <a href="https://wa.me/919966997141?text=I%20want%20to%20enquire%20about%20Mall%20Events"
+                            class="text-primary font-bold inline-flex items-center gap-2 group-hover:gap-4 transition-all">Enquire
+                            Now <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
+                    </div>
+                </div>
+
+                <!-- Premium Packages -->
+                <div class="bg-black rounded-3xl shadow-sm border border-white/5 hover:shadow-2xl hover:-translate-y-2 transition-all group overflow-hidden"
+                    data-aos="fade-up" data-aos-delay="200">
+                    <div class="h-64 overflow-hidden relative">
+                        <img src="./images/hero.png" alt="Premium Events"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold mb-4 font-outfit text-white">Premium Packages</h3>
+                        <p class="text-white/60 leading-relaxed mb-6">Specialized services for Audio Launches,
+                            Destination Weddings, and large-scale setups.</p>
+                        <a href="https://wa.me/919966997141?text=I%20want%20to%20enquire%20about%20Premium%20Event%20Packages"
+                            class="text-primary font-bold inline-flex items-center gap-2 group-hover:gap-4 transition-all">Enquire
+                            Now <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
+                    </div>
+                </div>
+
+                <!-- Artist Management -->
+                <div class="bg-black rounded-3xl shadow-sm border border-white/5 hover:shadow-2xl hover:-translate-y-2 transition-all group overflow-hidden"
+                    data-aos="fade-up">
+                    <div class="h-64 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=800&q=80"
+                            alt="Artist Management"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold mb-4 font-outfit text-white">Artist Management</h3>
+                        <p class="text-white/60 leading-relaxed mb-6">End-to-end artist booking and management for live
+                            performances, celebrity appearances, and entertainment shows at your events.</p>
+                        <a href="https://wa.me/919966997141?text=I%20want%20to%20enquire%20about%20Artist%20Management"
+                            class="text-primary font-bold inline-flex items-center gap-2 group-hover:gap-4 transition-all">Enquire
+                            Now <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
+                    </div>
+                </div>
+
+                <!-- Destination Weddings -->
+                <div class="bg-black rounded-3xl shadow-sm border border-white/5 hover:shadow-2xl hover:-translate-y-2 transition-all group overflow-hidden"
+                    data-aos="fade-up" data-aos-delay="100">
+                    <div class="h-64 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=800&q=80"
+                            alt="Destination Weddings"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold mb-4 font-outfit text-white">Destination Weddings</h3>
+                        <p class="text-white/60 leading-relaxed mb-6">Crafting breathtaking weddings at dream
+                            destinations across South India — from heritage palaces to scenic beachside venues.</p>
+                        <a href="https://wa.me/919966997141?text=I%20want%20to%20enquire%20about%20Destination%20Weddings"
+                            class="text-primary font-bold inline-flex items-center gap-2 group-hover:gap-4 transition-all">Enquire
+                            Now <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="py-24 bg-black">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div data-aos="fade-right">
+                    <h2 class="text-primary font-bold tracking-widest uppercase text-sm mb-3">Our Values</h2>
+                    <h3 class="text-4xl md:text-5xl font-black text-white font-outfit mb-8">Why Nikhil Events?</h3>
+                    <p class="text-white/60 mb-10 text-lg">We don't just decorate; we create experiences. Our team is
+                        dedicated to bringing your vision to life with precision and creativity.</p>
+
+                    <div class="space-y-6">
+                        <div class="flex gap-5">
+                            <div
+                                class="flex-shrink-0 w-12 h-12 bg-primary/10 rounded-2xl flex items-center justify-center text-primary">
+                                <i data-lucide="sparkles" class="w-6 h-6"></i>
+                            </div>
+                            <div>
+                                <h5 class="text-xl font-bold mb-1 text-white">Creative & Customized Designs</h5>
+                                <p class="text-white/50">Tailored setups that reflect your unique style and theme.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-5">
+                            <div
+                                class="flex-shrink-0 w-12 h-12 bg-primary/10 rounded-2xl flex items-center justify-center text-primary">
+                                <i data-lucide="users" class="w-6 h-6"></i>
+                            </div>
+                            <div>
+                                <h5 class="text-xl font-bold mb-1 text-white">Professional & Experienced Team</h5>
+                                <p class="text-white/50">Experts who handle every detail from concept to execution.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-5">
+                            <div
+                                class="flex-shrink-0 w-12 h-12 bg-primary/10 rounded-2xl flex items-center justify-center text-primary">
+                                <i data-lucide="zap" class="w-6 h-6"></i>
+                            </div>
+                            <div>
+                                <h5 class="text-xl font-bold mb-1 text-white">Affordable Premium Quality</h5>
+                                <p class="text-white/50">Get high-end looks without breaking the bank.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-5">
+                            <div
+                                class="flex-shrink-0 w-12 h-12 bg-primary/10 rounded-2xl flex items-center justify-center text-primary">
+                                <i data-lucide="clock" class="w-6 h-6"></i>
+                            </div>
+                            <div>
+                                <h5 class="text-xl font-bold mb-1 text-white">On-time Execution</h5>
+                                <p class="text-white/50">Punctual and efficient delivery for your special moments.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative" data-aos="zoom-in">
+                    <img src="./images/sangeet.png" alt="Event Vibe" class="rounded-[3rem] shadow-2xl">
+                    <div
+                        class="absolute -bottom-10 -left-10 bg-zinc-950 p-8 rounded-3xl shadow-xl border border-white/10 hidden md:block">
+                        <div class="text-primary font-black text-5xl mb-1">10+</div>
+                        <div class="text-white/50 font-bold uppercase tracking-tighter text-sm">Years of <br>Excellence
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cinematic Highlights (From Gallery) -->
+    <!-- Event Reels (Motion Gallery) -->
+    <section class="py-16 md:py-24 bg-zinc-950 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-primary font-bold tracking-widest uppercase text-sm mb-3">Event Highlights</h2>
+                <h3 class="text-4xl md:text-5xl font-black text-white font-outfit">Motion Magic In Focus</h3>
+                <div class="w-20 h-1 bg-primary mx-auto mt-6"></div>
+            </div>
+
+            <div class="relative rounded-[3rem] overflow-hidden shadow-2xl border-4 border-white/5 bg-black aspect-video group mb-12"
+                data-aos="zoom-in">
+                <video class="w-full h-full object-contain" controls preload="metadata" poster="./images/corporate.png">
+                    <source src="./videos/video5.mp4" type="video/mp4">
+                </video>
+                <div
+                    class="absolute top-8 left-8 bg-primary/95 backdrop-blur-md text-white px-6 py-2 rounded-full font-bold text-xs tracking-widest uppercase flex items-center gap-2">
+                    <i data-lucide="play" class="w-4 h-4 fill-current"></i> Featured Reel
+                </div>
+            </div>
+
+            <!-- Highlight Grid (Videos 6, 10, 4, 11, 3, 1, 7, 8, 9) -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Video 6 -->
+                <div class="relative rounded-[2.5rem] overflow-hidden shadow-xl bg-black aspect-[4/5] group"
+                    data-aos="fade-up">
+                    <video class="w-full h-full object-contain" controls preload="metadata">
+                        <source src="./videos/video6.mp4" type="video/mp4">
+                    </video>
+                    <div
+                        class="absolute bottom-6 left-6 bg-black/60 backdrop-blur-md text-white px-4 py-1.5 rounded-xl font-bold text-[10px] uppercase tracking-widest">
+                        Luminous Reception</div>
+                </div>
+                <!-- Video 10 -->
+                <div class="relative rounded-[2.5rem] overflow-hidden shadow-xl bg-black aspect-[4/5] group"
+                    data-aos="fade-up" data-aos-delay="100">
+                    <video class="w-full h-full object-contain" controls preload="metadata">
+                        <source src="./videos/video10.mp4" type="video/mp4">
+                    </video>
+                    <div
+                        class="absolute bottom-6 left-6 bg-black/60 backdrop-blur-md text-white px-4 py-1.5 rounded-xl font-bold text-[10px] uppercase tracking-widest">
+                        Birthday Celebration</div>
+                </div>
+                <!-- Video 4 -->
+                <div class="relative rounded-[2.5rem] overflow-hidden shadow-xl bg-black aspect-[4/5] group"
+                    data-aos="fade-up">
+                    <video class="w-full h-full object-contain" controls preload="metadata">
+                        <source src="./videos/video4.mp4" type="video/mp4">
+                    </video>
+                    <div
+                        class="absolute bottom-6 left-6 bg-black/60 backdrop-blur-md text-white px-4 py-1.5 rounded-xl font-bold text-[10px] uppercase tracking-widest">
+                        Sangeet Beats Flow</div>
+                </div>
+                <!-- Video 11 -->
+                <div class="relative rounded-[2.5rem] overflow-hidden shadow-xl bg-black aspect-[4/5] group"
+                    data-aos="fade-up" data-aos-delay="100">
+                    <video class="w-full h-full object-contain" controls preload="metadata">
+                        <source src="./videos/video11.mp4" type="video/mp4">
+                    </video>
+                    <div
+                        class="absolute bottom-6 left-6 bg-black/60 backdrop-blur-md text-white px-4 py-1.5 rounded-xl font-bold text-[10px] uppercase tracking-widest">
+                        High-End Stage Setup</div>
+                </div>
+                <!-- Video 3 -->
+                <div class="relative rounded-[2.5rem] overflow-hidden shadow-xl bg-black aspect-[4/5] group"
+                    data-aos="fade-up">
+                    <video class="w-full h-full object-contain" controls preload="metadata">
+                        <source src="./videos/video3.mp4" type="video/mp4">
+                    </video>
+                    <div
+                        class="absolute bottom-6 left-6 bg-black/60 backdrop-blur-md text-white px-4 py-1.5 rounded-xl font-bold text-[10px] uppercase tracking-widest">
+                        Bride Entrance Energy</div>
+                </div>
+                <!-- Video 1 -->
+                <div class="relative rounded-[2.5rem] overflow-hidden shadow-xl bg-black aspect-[4/5] group"
+                    data-aos="fade-up" data-aos-delay="100">
+                    <video class="w-full h-full object-contain" controls preload="metadata" poster="./images/G 2.jpeg">
+                        <source src="./videos/video1.mp4" type="video/mp4">
+                    </video>
+                    <div
+                        class="absolute bottom-6 left-6 bg-black/60 backdrop-blur-md text-white px-4 py-1.5 rounded-xl font-bold text-[10px] uppercase tracking-widest">
+                        Professional Highlight</div>
+                </div>
+                <!-- Video 7 -->
+                <div class="relative rounded-[2.5rem] overflow-hidden shadow-xl bg-black aspect-[4/5] group"
+                    data-aos="fade-up">
+                    <video class="w-full h-full object-contain" controls preload="metadata">
+                        <source src="./videos/video7.mp4" type="video/mp4">
+                    </video>
+                    <div
+                        class="absolute bottom-6 left-6 bg-black/60 backdrop-blur-md text-white px-4 py-1.5 rounded-xl font-bold text-[10px] uppercase tracking-widest">
+                        Traditional Sacred Fire</div>
+                </div>
+                <!-- Video 8 -->
+                <div class="relative rounded-[2.5rem] overflow-hidden shadow-xl bg-black aspect-[4/5] group"
+                    data-aos="fade-up" data-aos-delay="100">
+                    <video class="w-full h-full object-contain" controls preload="metadata">
+                        <source src="./videos/video8.mp4" type="video/mp4">
+                    </video>
+                    <div
+                        class="absolute bottom-6 left-6 bg-black/60 backdrop-blur-md text-white px-4 py-1.5 rounded-xl font-bold text-[10px] uppercase tracking-widest">
+                        Floral Masterpiece</div>
+                </div>
+                <!-- Video 9 -->
+                <div class="relative rounded-[2.5rem] overflow-hidden shadow-xl bg-black aspect-[4/5] group"
+                    data-aos="fade-up">
+                    <video class="w-full h-full object-contain" controls preload="metadata">
+                        <source src="./videos/video9.mp4" type="video/mp4">
+                    </video>
+                    <div
+                        class="absolute bottom-6 left-6 bg-black/60 backdrop-blur-md text-white px-4 py-1.5 rounded-xl font-bold text-[10px] uppercase tracking-widest">
+                        Public Event Grandeur</div>
+                </div>
+            </div>
+
+            <div class="mt-12 text-center">
+                <a href="gallery.html"
+                    class="inline-flex items-center gap-2 text-primary font-bold hover:gap-4 transition-all uppercase tracking-widest text-sm">
+                    View All 10 Cinematic Reels <i data-lucide="arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Full Gallery Grid (From Gallery) -->
+    <section id="gallery-full" class="py-24 bg-black text-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-16" data-aos="fade-up">
+                <div>
+                    <h2 class="text-primary font-bold tracking-widest uppercase text-sm mb-3">Our Work</h2>
+                    <h3 class="text-4xl md:text-5xl font-black font-outfit text-white">Visual Stories</h3>
+                </div>
+                <div class="flex flex-wrap gap-2 mt-6 md:mt-0">
+                    <button class="px-5 py-1.5 rounded-full bg-primary text-white text-xs font-bold">All</button>
+                    <button
+                        class="px-5 py-1.5 rounded-full bg-white/10 text-white/60 text-xs font-bold hover:bg-white/20 transition-all">Weddings</button>
+                    <button
+                        class="px-5 py-1.5 rounded-full bg-white/10 text-white/60 text-xs font-bold hover:bg-white/20 transition-all">Corporate</button>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <!-- Item 1 -->
+                <div class="group relative overflow-hidden rounded-3xl aspect-[4/5] shadow-sm hover:shadow-2xl transition-all"
+                    data-aos="zoom-in">
+                    <img src="./images/G 1.jpeg"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
+                        <p class="text-primary font-bold text-[10px] uppercase tracking-widest mb-1">Institutional</p>
+                        <h4 class="text-white font-black text-lg font-outfit uppercase">Grand Fest Entrance</h4>
+                    </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="group relative overflow-hidden rounded-3xl aspect-[4/5] shadow-sm hover:shadow-2xl transition-all"
+                    data-aos="zoom-in" data-aos-delay="100">
+                    <img src="./images/G 2.jpeg"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
+                        <p class="text-primary font-bold text-[10px] uppercase tracking-widest mb-1">Corporate</p>
+                        <h4 class="text-white font-black text-lg font-outfit uppercase">Stage Production</h4>
+                    </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="group relative overflow-hidden rounded-3xl aspect-[4/5] shadow-sm hover:shadow-2xl transition-all"
+                    data-aos="zoom-in" data-aos-delay="200">
+                    <img src="./images/G 3.jpeg"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
+                        <p class="text-primary font-bold text-[10px] uppercase tracking-widest mb-1">School Functions
+                        </p>
+                        <h4 class="text-white font-black text-lg font-outfit uppercase">Annual Day Special</h4>
+                    </div>
+                </div>
+                <!-- Item 4 -->
+                <div class="group relative overflow-hidden rounded-3xl aspect-[4/5] shadow-sm hover:shadow-2xl transition-all"
+                    data-aos="zoom-in" data-aos-delay="300">
+                    <img src="./images/G 4.jpeg"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
+                        <p class="text-primary font-bold text-[10px] uppercase tracking-widest mb-1">Corporate</p>
+                        <h4 class="text-white font-black text-lg font-outfit uppercase">Grand Office Entrance</h4>
+                    </div>
+                </div>
+                <!-- Item 5 -->
+                <div class="group relative overflow-hidden rounded-3xl aspect-[4/5] shadow-sm hover:shadow-2xl transition-all"
+                    data-aos="zoom-in">
+                    <img src="./images/G 5.jpeg"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
+                        <p class="text-primary font-bold text-[10px] uppercase tracking-widest mb-1">Branding</p>
+                        <h4 class="text-white font-black text-lg font-outfit uppercase">Custom Floral Logo</h4>
+                    </div>
+                </div>
+                <!-- Item 6 -->
+                <div class="group relative overflow-hidden rounded-3xl aspect-[4/5] shadow-sm hover:shadow-2xl transition-all"
+                    data-aos="zoom-in" data-aos-delay="100">
+                    <img src="./images/G 6.jpeg"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
+                        <p class="text-primary font-bold text-[10px] uppercase tracking-widest mb-1">Inauguration</p>
+                        <h4 class="text-white font-black text-lg font-outfit uppercase">Professional Flow</h4>
+                    </div>
+                </div>
+                <!-- Item 7 -->
+                <div class="group relative overflow-hidden rounded-3xl aspect-[4/5] shadow-sm hover:shadow-2xl transition-all"
+                    data-aos="zoom-in" data-aos-delay="200">
+                    <img src="./images/G 7.jpeg"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
+                        <p class="text-primary font-bold text-[10px] uppercase tracking-widest mb-1">Public Events</p>
+                        <h4 class="text-white font-black text-lg font-outfit uppercase">Exhibition Setup</h4>
+                    </div>
+                </div>
+                <!-- Item 8 -->
+                <div class="group relative overflow-hidden rounded-3xl aspect-[4/5] shadow-sm hover:shadow-2xl transition-all"
+                    data-aos="zoom-in" data-aos-delay="300">
+                    <img src="./images/G 8.jpeg"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
+                        <p class="text-primary font-bold text-[10px] uppercase tracking-widest mb-1">Birthday Bliss</p>
+                        <h4 class="text-white font-black text-lg font-outfit uppercase">Themed Party Box</h4>
+                    </div>
+                </div>
+                <!-- Item 9 -->
+                <div class="group relative overflow-hidden rounded-3xl aspect-[4/5] shadow-sm hover:shadow-2xl transition-all"
+                    data-aos="zoom-in">
+                    <img src="./images/G 9.jpeg"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
+                        <p class="text-primary font-bold text-[10px] uppercase tracking-widest mb-1">Promo</p>
+                        <h4 class="text-white font-black text-lg font-outfit uppercase">Mall Branding</h4>
+                    </div>
+                </div>
+                <!-- Item 10 -->
+                <div class="group relative overflow-hidden rounded-3xl aspect-[4/5] shadow-sm hover:shadow-2xl transition-all"
+                    data-aos="zoom-in" data-aos-delay="100">
+                    <img src="./images/G 10.jpeg"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
+                        <p class="text-primary font-bold text-[10px] uppercase tracking-widest mb-1">Grand Finale</p>
+                        <h4 class="text-white font-black text-lg font-outfit uppercase">Premium Decor</h4>
+                    </div>
+                </div>
+                <!-- Item 11 -->
+                <div class="group relative overflow-hidden rounded-3xl aspect-[4/5] shadow-sm hover:shadow-2xl transition-all"
+                    data-aos="zoom-in" data-aos-delay="200">
+                    <img src="./images/G 11.jpeg"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
+                        <p class="text-primary font-bold text-[10px] uppercase tracking-widest mb-1">Reception</p>
+                        <h4 class="text-white font-black text-lg font-outfit uppercase">Luxurious Stage</h4>
+                    </div>
+                </div>
+                <!-- Item 12 -->
+                <div class="group relative overflow-hidden rounded-3xl aspect-[4/5] shadow-sm hover:shadow-2xl transition-all"
+                    data-aos="zoom-in" data-aos-delay="300">
+                    <img src="./images/G 12.jpeg"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
+                        <p class="text-primary font-bold text-[10px] uppercase tracking-widest mb-1">Lighting</p>
+                        <h4 class="text-white font-black text-lg font-outfit uppercase">Atmospheric Vibe</h4>
+                    </div>
+                </div>
+                <!-- Item 13 -->
+                <div class="group relative overflow-hidden rounded-3xl aspect-[4/5] shadow-sm hover:shadow-2xl transition-all"
+                    data-aos="zoom-in">
+                    <img src="./images/G 13.jpeg"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
+                        <p class="text-primary font-bold text-[10px] uppercase tracking-widest mb-1">Traditional</p>
+                        <h4 class="text-white font-black text-lg font-outfit uppercase">Sacred Decoration</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trusted Clients Section -->
+    <section class="py-16 md:py-24 bg-black border-y border-white/5">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h4 class="text-primary font-bold tracking-widest uppercase text-xs mb-3">Our Track Record</h4>
+                <h3 class="text-3xl md:text-5xl font-black text-white font-outfit mb-6">Trusted by Leading Brands &
+                    Institutions</h3>
+                <p class="text-white/50 max-w-2xl mx-auto font-medium">We take pride in our long-standing relationships
+                    with top corporate giants, educational institutions, and public sector organizations.</p>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 md:gap-6" data-aos="fade-up">
+                <!-- Tech / Corporate -->
+                <div
+                    class="bg-zinc-950 p-6 rounded-2xl border border-white/5 shadow-sm flex flex-col items-center justify-center text-center hover:shadow-xl hover:border-primary/20 hover:-translate-y-1 transition-all group">
+                    <i data-lucide="cpu"
+                        class="w-8 h-8 mb-3 text-gray-300 group-hover:text-primary transition-colors"></i>
+                    <span
+                        class="text-gray-400 group-hover:text-white font-black font-outfit text-[10px] md:text-xs transition-colors leading-tight uppercase">YASH
+                        TECHNOLOGY</span>
+                </div>
+                <div
+                    class="bg-zinc-950 p-6 rounded-2xl border border-white/5 shadow-sm flex flex-col items-center justify-center text-center hover:shadow-xl hover:border-primary/20 hover:-translate-y-1 transition-all group">
+                    <i data-lucide="briefcase"
+                        class="w-8 h-8 mb-3 text-gray-300 group-hover:text-primary transition-colors"></i>
+                    <span
+                        class="text-gray-400 group-hover:text-white font-black font-outfit text-[10px] md:text-xs transition-colors leading-tight uppercase">JSS
+                        Pro</span>
+                </div>
+                <!-- Energy / PSU -->
+                <div
+                    class="bg-zinc-950 p-6 rounded-2xl border border-white/5 shadow-sm flex flex-col items-center justify-center text-center hover:shadow-xl hover:border-primary/20 hover:-translate-y-1 transition-all group">
+                    <i data-lucide="factory"
+                        class="w-8 h-8 mb-3 text-gray-300 group-hover:text-primary transition-colors"></i>
+                    <span
+                        class="text-gray-400 group-hover:text-white font-black font-outfit text-[10px] md:text-xs transition-colors leading-tight uppercase">ONGC</span>
+                </div>
+                <div
+                    class="bg-zinc-950 p-6 rounded-2xl border border-white/5 shadow-sm flex flex-col items-center justify-center text-center hover:shadow-xl hover:border-primary/20 hover:-translate-y-1 transition-all group">
+                    <i data-lucide="network"
+                        class="w-8 h-8 mb-3 text-gray-300 group-hover:text-primary transition-colors"></i>
+                    <span
+                        class="text-gray-400 group-hover:text-white font-black font-outfit text-[10px] md:text-xs transition-colors leading-tight uppercase">Proclink</span>
+                </div>
+                <!-- Real Estate -->
+                <div
+                    class="bg-zinc-950 p-6 rounded-2xl border border-white/5 shadow-sm flex flex-col items-center justify-center text-center hover:shadow-xl hover:border-primary/20 hover:-translate-y-1 transition-all group">
+                    <i data-lucide="building-2"
+                        class="w-8 h-8 mb-3 text-gray-300 group-hover:text-primary transition-colors"></i>
+                    <span
+                        class="text-gray-400 group-hover:text-white font-black font-outfit text-[10px] md:text-xs transition-colors leading-tight uppercase">Suchirindia</span>
+                </div>
+                <!-- Education -->
+                <div
+                    class="bg-zinc-950 p-6 rounded-2xl border border-white/5 shadow-sm flex flex-col items-center justify-center text-center hover:shadow-xl hover:border-primary/20 hover:-translate-y-1 transition-all group">
+                    <i data-lucide="graduation-cap"
+                        class="w-8 h-8 mb-3 text-gray-300 group-hover:text-primary transition-colors"></i>
+                    <span
+                        class="text-gray-400 group-hover:text-white font-black font-outfit text-[10px] md:text-xs transition-colors leading-tight uppercase">DAV
+                        Public School</span>
+                </div>
+                <!-- Auto / Retail -->
+                <div
+                    class="bg-zinc-950 p-6 rounded-2xl border border-white/5 shadow-sm flex flex-col items-center justify-center text-center hover:shadow-xl hover:border-primary/20 hover:-translate-y-1 transition-all group">
+                    <i data-lucide="car-front"
+                        class="w-8 h-8 mb-3 text-gray-300 group-hover:text-primary transition-colors"></i>
+                    <span
+                        class="text-gray-400 group-hover:text-white font-black font-outfit text-[10px] md:text-xs transition-colors leading-tight uppercase">Harsha
+                        Toyota</span>
+                </div>
+                <div
+                    class="bg-zinc-950 p-6 rounded-2xl border border-white/5 shadow-sm flex flex-col items-center justify-center text-center hover:shadow-xl hover:border-primary/20 hover:-translate-y-1 transition-all group">
+                    <i data-lucide="school"
+                        class="w-8 h-8 mb-3 text-gray-300 group-hover:text-primary transition-colors"></i>
+                    <span
+                        class="text-gray-400 group-hover:text-white font-black font-outfit text-[10px] md:text-xs transition-colors leading-tight uppercase">Gitams
+                        College</span>
+                </div>
+                <div
+                    class="bg-zinc-950 p-6 rounded-2xl border border-white/5 shadow-sm flex flex-col items-center justify-center text-center hover:shadow-xl hover:border-primary/20 hover:-translate-y-1 transition-all group">
+                    <i data-lucide="zap"
+                        class="w-8 h-8 mb-3 text-gray-300 group-hover:text-primary transition-colors"></i>
+                    <span
+                        class="text-gray-400 group-hover:text-white font-black font-outfit text-[10px] md:text-xs transition-colors leading-tight uppercase">Bajaj
+                        Electronics</span>
+                </div>
+                <!-- Tech 2 -->
+                <div
+                    class="bg-zinc-950 p-6 rounded-2xl border border-white/5 shadow-sm flex flex-col items-center justify-center text-center hover:shadow-xl hover:border-primary/20 hover:-translate-y-1 transition-all group">
+                    <i data-lucide="layers"
+                        class="w-8 h-8 mb-3 text-gray-300 group-hover:text-primary transition-colors"></i>
+                    <span
+                        class="text-gray-400 group-hover:text-white font-black font-outfit text-[10px] md:text-xs transition-colors leading-tight uppercase">Thryve
+                        Digitals</span>
+                </div>
+                <!-- Life Sciences -->
+                <div
+                    class="bg-zinc-950 p-6 rounded-2xl border border-white/5 shadow-sm flex flex-col items-center justify-center text-center hover:shadow-xl hover:border-primary/20 hover:-translate-y-1 transition-all group">
+                    <i data-lucide="microscope"
+                        class="w-8 h-8 mb-3 text-gray-300 group-hover:text-primary transition-colors"></i>
+                    <span
+                        class="text-gray-400 group-hover:text-white font-black font-outfit text-[10px] md:text-xs transition-colors leading-tight uppercase">Huwel
+                        Life Sci</span>
+                </div>
+                <!-- Media -->
+                <div
+                    class="bg-zinc-950 p-6 rounded-2xl border border-white/5 shadow-sm flex flex-col items-center justify-center text-center hover:shadow-xl hover:border-primary/20 hover:-translate-y-1 transition-all group">
+                    <i data-lucide="play-circle"
+                        class="w-8 h-8 mb-3 text-gray-300 group-hover:text-primary transition-colors"></i>
+                    <span
+                        class="text-gray-400 group-hover:text-white font-black font-outfit text-[10px] md:text-xs transition-colors leading-tight uppercase">Aha
+                        Media</span>
+                </div>
+                <!-- Medical -->
+                <div
+                    class="bg-zinc-950 p-6 rounded-2xl border border-white/5 shadow-sm flex flex-col items-center justify-center text-center hover:shadow-xl hover:border-primary/20 hover:-translate-y-1 transition-all group">
+                    <i data-lucide="heart-pulse"
+                        class="w-8 h-8 mb-3 text-gray-300 group-hover:text-primary transition-colors"></i>
+                    <span
+                        class="text-gray-400 group-hover:text-white font-black font-outfit text-[10px] md:text-xs transition-colors leading-tight uppercase">Ferty9
+                        Hospital</span>
+                </div>
+                <!-- Staffing -->
+                <div
+                    class="bg-zinc-950 p-6 rounded-2xl border border-white/5 shadow-sm flex flex-col items-center justify-center text-center hover:shadow-xl hover:border-primary/20 hover:-translate-y-1 transition-all group">
+                    <i data-lucide="users-2"
+                        class="w-8 h-8 mb-3 text-gray-300 group-hover:text-primary transition-colors"></i>
+                    <span
+                        class="text-gray-400 group-hover:text-white font-black font-outfit text-[10px] md:text-xs transition-colors leading-tight uppercase">Tek
+                        Systems</span>
+                </div>
+                <!-- Education 2 -->
+                <div
+                    class="bg-zinc-950 p-6 rounded-2xl border border-white/5 shadow-sm flex flex-col items-center justify-center text-center hover:shadow-xl hover:border-primary/20 hover:-translate-y-1 transition-all group">
+                    <i data-lucide="book-open"
+                        class="w-8 h-8 mb-3 text-gray-300 group-hover:text-primary transition-colors"></i>
+                    <span
+                        class="text-gray-400 group-hover:text-white font-black font-outfit text-[10px] md:text-xs transition-colors leading-tight uppercase">World
+                        One School</span>
+                </div>
+                <div
+                    class="bg-zinc-950 p-6 rounded-2xl border border-white/5 shadow-sm flex flex-col items-center justify-center text-center hover:shadow-xl hover:border-primary/20 hover:-translate-y-1 transition-all group">
+                    <i data-lucide="atom"
+                        class="w-8 h-8 mb-3 text-gray-300 group-hover:text-primary transition-colors"></i>
+                    <span
+                        class="text-gray-400 group-hover:text-white font-black font-outfit text-[10px] md:text-xs transition-colors leading-tight uppercase">Atomic
+                        Energy</span>
+                </div>
+                <div
+                    class="bg-zinc-950 p-6 rounded-2xl border border-white/5 shadow-sm flex flex-col items-center justify-center text-center hover:shadow-xl hover:border-primary/20 hover:-translate-y-1 transition-all group">
+                    <i data-lucide="shield-alert"
+                        class="w-8 h-8 mb-3 text-gray-300 group-hover:text-primary transition-colors"></i>
+                    <span
+                        class="text-gray-400 group-hover:text-white font-black font-outfit text-[10px] md:text-xs transition-colors leading-tight uppercase">Nuclear
+                        Fuel Com</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Full Contact Section (From Contact) -->
+    <section id="contact-full" class="py-24 bg-black border-t border-white/5">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-primary font-bold tracking-widest uppercase text-sm mb-3">Get in Touch</h2>
+                <h3 class="text-4xl md:text-5xl font-black text-white font-outfit">Plan Your Celebration</h3>
+                <div class="w-20 h-1 bg-primary mx-auto mt-6"></div>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+                <!-- Contact Info & Form -->
+                <div data-aos="fade-right">
+                    <h2 class="text-3xl font-black font-outfit text-white mb-8">Send us a Message</h2>
+                    <form id="contact-form-home" class="space-y-6 mb-12">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-sm font-bold text-white/60 mb-2">Name</label>
+                                <input type="text" id="home-name"
+                                    class="w-full px-5 py-4 bg-zinc-950 border border-white/10 rounded-2xl focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all placeholder:text-white/20 text-white"
+                                    placeholder="Enter your name" required>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-bold text-white/60 mb-2">Phone Number</label>
+                                <input type="tel" id="home-phone"
+                                    class="w-full px-5 py-4 bg-zinc-950 border border-white/10 rounded-2xl focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all placeholder:text-white/20 text-white"
+                                    placeholder="Enter phone number" required>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-sm font-bold text-white/60 mb-2">Service Required</label>
+                                <select id="home-service"
+                                    class="w-full px-5 py-4 bg-zinc-950 border border-white/10 rounded-2xl focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all appearance-none cursor-pointer text-white"
+                                    required>
+                                    <option value="" disabled selected>Select service type</option>
+                                    <option value="wedding">Wedding Planning</option>
+                                    <option value="birthday">Birthday Decorations</option>
+                                    <option value="corporate">Corporate Events</option>
+                                    <option value="sangeet">Sangeet Night</option>
+                                    <option value="housewarming">House Warming</option>
+                                    <option value="malls">Mall Decorations</option>
+                                    <option value="other">Other Events</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-bold text-white/60 mb-2">Event Date</label>
+                                <input type="date" id="home-date"
+                                    class="w-full px-5 py-4 bg-zinc-950 border border-white/10 rounded-2xl focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all text-white"
+                                    required>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-sm font-bold text-white/60 mb-2">Estimated Guest Count</label>
+                                <input type="number" id="home-guests"
+                                    class="w-full px-5 py-4 bg-zinc-950 border border-white/10 rounded-2xl focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all placeholder:text-white/20 text-white"
+                                    placeholder="e.g. 200" required>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-bold text-white/60 mb-2">Event Venue / Location</label>
+                                <input type="text" id="home-venue"
+                                    class="w-full px-5 py-4 bg-zinc-950 border border-white/10 rounded-2xl focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all placeholder:text-white/20 text-white"
+                                    placeholder="Area / Location (Across South India)" required>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-bold text-white/60 mb-2">Additional Requirements</label>
+                            <textarea id="home-requirements" rows="4"
+                                class="w-full px-5 py-4 bg-zinc-950 border border-white/10 rounded-2xl focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all placeholder:text-white/20 text-white"
+                                placeholder="Tell us about your theme, specific colors, or any special requests..."
+                                required></textarea>
+                        </div>
+                        <button type="submit"
+                            class="w-full bg-primary text-white py-5 rounded-2xl font-black text-lg shadow-xl shadow-red-500/30 hover:scale-[1.02] active:scale-95 transition-all flex items-center justify-center gap-3">
+                            <i data-lucide="message-circle" class="w-6 h-6"></i> Send Inquiry via WhatsApp
+                        </button>
+                    </form>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <a href="tel:+919966997141"
+                            class="p-6 bg-zinc-950 rounded-2xl border border-white/10 flex items-center gap-4 hover:shadow-lg transition-all">
+                            <div
+                                class="w-12 h-12 bg-black rounded-xl shadow-sm flex items-center justify-center text-primary">
+                                <i data-lucide="phone" class="w-6 h-6"></i>
+                            </div>
+                            <div>
+                                <p class="text-[10px] text-white/40 font-bold uppercase tracking-widest">Call Us Now</p>
+                                <p class="font-bold text-white">+91 9966997141</p>
+                            </div>
+                        </a>
+                        <a href="https://wa.me/919966997141" target="_blank"
+                            class="p-6 bg-zinc-950 rounded-2xl border border-white/10 flex items-center gap-4 hover:shadow-lg transition-all">
+                            <div
+                                class="w-12 h-12 bg-black rounded-xl shadow-sm flex items-center justify-center text-[#25D366]">
+                                <i data-lucide="message-circle" class="w-6 h-6"></i>
+                            </div>
+                            <div>
+                                <p class="text-[10px] text-white/40 font-bold uppercase tracking-widest">Chat with Us
+                                </p>
+                                <p class="font-bold text-white">+91 9966997141</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Map & Address -->
+                <div data-aos="fade-left">
+                    <h2 class="text-3xl font-black font-outfit text-white mb-8">Visit Our Office</h2>
+                    <div
+                        class="bg-zinc-950 p-3 rounded-[2.5rem] shadow-xl border border-white/10 overflow-hidden mb-8 h-[400px]">
+                        <iframe
+                            src="https://www.google.com/maps?q=WeWork+Krishe+Emerald+Kondapur+Hyderabad&hl=en&z=15&output=embed"
+                            class="w-full h-full rounded-[2rem]" style="border:0;" allowfullscreen="" loading="lazy">
+                        </iframe>
+                    </div>
+                    <div class="p-8 bg-primary rounded-3xl text-white shadow-xl relative overflow-hidden group">
+                        <div class="relative z-10">
+                            <i data-lucide="map-pin" class="w-8 h-8 mb-4"></i>
+                            <h5 class="font-bold text-white">Visit our Office</h5>
+                            <p class="text-white/70 text-sm mb-6">WeWork Krishe Emerald, Ground Floor, Kondapur Main
+                                Road, Laxmi Cyber City, Whitefields, Kondapur, Hyderabad, Telangana 500081</p>
+                            <a href="https://www.google.com/maps/search/?api=1&query=WeWork+Krishe+Emerald+Kondapur+Hyderabad"
+                                target="_blank"
+                                class="inline-flex items-center gap-2 bg-white text-primary px-6 py-2.5 rounded-full font-bold text-xs uppercase tracking-widest hover:bg-zinc-100 transition-all shadow-lg active:scale-95">
+                                <i data-lucide="navigation" class="w-4 h-4"></i> Get Directions
+                            </a>
+                        </div>
+                        <div
+                            class="absolute -bottom-10 -right-10 w-40 h-40 bg-white/10 rounded-full blur-3xl transition-all group-hover:scale-150">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black pt-24 pb-8 border-t border-white/5">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+            <div class="col-span-1 md:col-span-1">
+                <img class="h-16 w-auto mb-6 rounded-2xl" src="./logo.jpeg" alt="Logo">
+                <p class="text-gray-500 text-sm leading-relaxed">
+                    Nikhil Events & Entertainments is a leading event management company known for creativity and
+                    excellence.
+                </p>
+                <div class="flex gap-4 mt-8">
+                    <a href="https://www.facebook.com/share/1KZkNT2V2g/" target="_blank"
+                        class="w-10 h-10 bg-white/5 border border-white/10 rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition-all shadow-sm">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-facebook">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                        </svg>
+                    </a>
+                    <a href="https://www.instagram.com/nikhilevents?utm_source=qr&igsh=NzV5ZWp2ZXFpdjRp" target="_blank"
+                        class="w-10 h-10 bg-white/5 border border-white/10 rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition-all shadow-sm">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-instagram">
+                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                            <line x1="17.5" x2="17.51" y1="6.5" y2="6.51" />
+                        </svg>
+                    </a>
+                    <a href="https://youtube.com/@nikhileventsindia?si=X_FjUxrZo5pA2e2E" target="_blank"
+                        class="w-10 h-10 bg-white/5 border border-white/10 rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition-all shadow-sm">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-youtube">
+                            <path
+                                d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 2-2 60.11 60.11 0 0 1 15 0 2 2 0 0 1 2 2 24.12 24.12 0 0 1 0 10 2 2 0 0 1-2 2 60.11 60.11 0 0 1-15 0 2 2 0 0 1-2-2z" />
+                            <polyline points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div>
+                <h5 class="text-white font-bold mb-6">Quick Links</h5>
+                <ul class="space-y-4 text-white/50 text-sm">
+                    <li><a href="index.html" class="hover:text-primary transition-colors">Home</a></li>
+                    <li><a href="about.html" class="hover:text-primary transition-colors">About Us</a></li>
+                    <li><a href="services.html" class="hover:text-primary transition-colors">Services</a></li>
+                    <li><a href="gallery.html" class="hover:text-primary transition-colors">Gallery</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h5 class="text-white font-bold mb-6">Our Services</h5>
+                <ul class="space-y-4 text-white/50 text-sm">
+                    <li><a href="services.html" class="hover:text-primary transition-colors">Wedding Planning</a></li>
+                    <li><a href="services.html" class="hover:text-primary transition-colors">Birthday Decorations</a>
+                    </li>
+                    <li><a href="services.html" class="hover:text-primary transition-colors">Corporate Events</a></li>
+                    <li><a href="services.html" class="hover:text-primary transition-colors">Sangeet Events</a></li>
+                    <li><a href="services.html" class="hover:text-primary transition-colors">Artist Management</a></li>
+                    <li><a href="services.html" class="hover:text-primary transition-colors">Destination Weddings</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h5 class="text-white font-bold mb-6">Contact Info</h5>
+                <ul class="space-y-4 text-white/50 text-sm">
+                    <li class="flex gap-3">
+                        <i data-lucide="map-pin" class="w-5 h-5 text-primary"></i>
+                        <span>WeWork Krishe Emerald, Kondapur Main Road, <br>Laxmi Cyber City, Whitefields,
+                            Hyderabad</span>
+                    </li>
+                    <li class="flex gap-3">
+                        <i data-lucide="phone" class="w-5 h-5 text-primary"></i>
+                        <span>+91 9966997141</span>
+                    </li>
+                    <li class="flex gap-3">
+                        <i data-lucide="mail" class="w-5 h-5 text-primary"></i>
+                        <span>nikhilevents141@gmail.com</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 pt-8 border-t border-white/5 text-center">
+            <p class="text-white/30 text-xs tracking-widest">© 2026 Nikhil Events & Entertainments. All rights reserved.</p>
+            <p class="text-white/20 text-[10px] mt-2 tracking-widest uppercase font-medium">Developed by <a href="https://www.codtechitsolutions.com/" target="_blank" class="text-primary hover:text-white transition-all">CODTECH IT SOLUTIONS</a></p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/919966997141?text=Hello,%20I%20want%20to%20enquire%20about%20your%20event%20services"
+        target="_blank"
+        class="group fixed bottom-8 right-8 bg-[#25D366] text-white p-4 rounded-full shadow-2xl z-[9999] hover:scale-110 active:scale-90 transition-all flex items-center justify-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 16 16">
+            <path
+                d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.601 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007-.133 0-.347.05-.53.25-.183.198-.71.696-.71 1.7 0 1.004.73 1.976.83 2.112.1.135 1.43 2.3 3.515 3.122 2.085.823 2.085.548 2.46.513.375-.034 1.17-.478 1.334-.94.166-.46.166-.855.116-.94-.05-.085-.18-.135-.378-.235z" />
+        </svg>
+        <span
+            class="max-w-0 overflow-hidden whitespace-nowrap group-hover:max-w-xs transition-all duration-500 ml-0 group-hover:ml-2 font-bold text-sm">Chat
+            with Us</span>
+    </a>
+
+    <script type="module" src="./src/main.js"></script>
+    <!-- Lucide CDN for immediate icons in preview, normally bundled -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        lucide.createIcons();
+
+        // WhatsApp Form Integration for Home Page
+        const contactForm = document.getElementById('contact-form-home');
+        if (contactForm) {
+            contactForm.addEventListener('submit', function (e) {
+                e.preventDefault();
+
+                // Get values
+                const name = document.getElementById('home-name').value;
+                const phone = document.getElementById('home-phone').value;
+                const service = document.getElementById('home-service').value;
+                const date = document.getElementById('home-date').value;
+                const guests = document.getElementById('home-guests').value;
+                const venue = document.getElementById('home-venue').value;
+                const requirements = document.getElementById('home-requirements').value;
+
+                // Format message
+                const message = `*New Inquiry - Nikhil Events (Home)*%0A%0A` +
+                    `*Name:* ${name}%0A` +
+                    `*Phone:* ${phone}%0A` +
+                    `*Service:* ${service}%0A` +
+                    `*Date:* ${date}%0A` +
+                    `*Guests:* ${guests}%0A` +
+                    `*Venue:* ${venue}%0A%0A` +
+                    `*Requirements:* ${requirements}`;
+
+                // WhatsApp link
+                const whatsappUrl = `https://wa.me/919966997141?text=${message}`;
+
+                // Open in new tab
+                window.open(whatsappUrl, '_blank');
+            });
+        }
+    </script>
+</body>
+
+</html>

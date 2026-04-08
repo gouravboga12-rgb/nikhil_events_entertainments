@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en" class="overflow-x-hidden">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Best Event Planners in South India</title>
+    <link rel="stylesheet" href="./src/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Outfit:wght@500;700;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="bg-black font-sans text-white overflow-x-hidden w-full">
+
+    <!-- Navbar -->
+    <nav class="fixed top-0 w-full bg-black/80 backdrop-blur-md z-50 border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex-shrink-0 flex items-center gap-3">
+                    <img class="h-12 w-auto rounded-xl" src="./logo.jpeg" alt="Nikhil Events Logo">
+                    <div class="flex flex-col">
+                        <span class="text-primary font-outfit font-bold text-xl leading-none">NIKHIL EVENTS</span>
+                        <span class="text-[10px] tracking-[0.2em] text-gray-500 uppercase">& Entertainments</span>
+                    </div>
+                </div>
+
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="text-gray-300 hover:text-primary font-medium transition-colors">Home</a>
+                    <a href="about.html"
+                        class="text-gray-300 hover:text-primary font-medium transition-colors">About</a>
+                    <a href="services.html"
+                        class="text-gray-300 hover:text-primary font-medium transition-colors">Services</a>
+                    <a href="gallery.html" class="text-primary font-semibold transition-colors">Gallery</a>
+                    <a href="contact.html"
+                        class="text-gray-300 hover:text-primary font-medium transition-colors">Contact</a>
+                    <a href="contact.html"
+                        class="bg-primary text-white px-6 py-2.5 rounded-full font-bold shadow-lg shadow-red-500/30 hover:scale-105 active:scale-95 transition-all">Book
+                        Now</a>
+                </div>
+
+                <div class="md:hidden">
+                    <button id="mobile-menu-btn" class="text-gray-700">
+                        <i data-lucide="menu" class="w-8 h-8"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-black border-t border-white/10 py-4 px-4 space-y-3">
+            <a href="index.html" class="block text-gray-300 hover:text-primary font-medium">Home</a>
+            <a href="about.html" class="block text-gray-300 hover:text-primary font-medium">About</a>
+            <a href="services.html" class="block text-gray-300 hover:text-primary font-medium">Services</a>
+            <a href="gallery.html" class="block text-gray-300 hover:text-primary font-medium">Gallery</a>
+            <a href="contact.html" class="block text-gray-300 hover:text-primary font-medium">Contact</a>
+            <a href="contact.html" class="block text-center bg-primary text-white px-6 py-3 rounded-xl font-bold">Book
+                Now</a>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="pt-32 pb-16 bg-black border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-4 text-center" data-aos="fade-down">
+            <h1 class="text-4xl md:text-7xl font-black text-white font-outfit mb-4">Our Gallery</h1>
+            <p class="text-xl text-white/50 max-w-2xl mx-auto">Witness the magic we create across South India.</p>
+        </div>
+    </section>
+
+    <!-- Cinematic Motion Gallery -->
+    <section class="py-16 md:py-24 bg-zinc-950 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-primary font-bold tracking-widest uppercase text-sm mb-3">Event Highlights</h2>
+                <h3 class="text-4xl md:text-5xl font-black text-white font-outfit">Motion Magic In Focus</h3>
+                <div class="w-20 h-1 bg-primary mx-auto mt-6 rounded-full"></div>
+            </div>
+
+            <!-- Featured Highlight (Video 5) -->
+            <div class="relative rounded-[3rem] overflow-hidden shadow-2xl border-4 border-white/5 bg-black aspect-video group mb-12"
+                data-aos="zoom-in">
+                <video class="w-full h-full object-contain" controls preload="metadata" poster="./images/corporate.png">
+                    <source src="./videos/video5.mp4" type="video/mp4">
+                </video>
+                <div
+                    class="absolute top-8 left-8 bg-primary/95 backdrop-blur-md text-white px-8 py-2.5 rounded-full font-black text-sm tracking-[0.2em] uppercase flex items-center gap-3">
+                    <i data-lucide="play" class="w-5 h-5 fill-current"></i> Main Highlight
+                </div>
+            </div>
+
+            <!-- Video Grid (Videos 6, 10, 4, 11, 3, 1, 7, 8, 9) -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Video 6 -->
+                <div class="relative rounded-[2.5rem] overflow-hidden shadow-xl border border-white/5 bg-black aspect-[4/5] group"
+                    data-aos="fade-up">
+                    <video class="w-full h-full object-contain" controls preload="metadata">
+                        <source src="./videos/video6.mp4" type="video/mp4">
+                    </video>
+                    <div
+                        class="absolute bottom-6 left-6 bg-black/60 backdrop-blur-md text-white px-5 py-2 rounded-2xl font-bold text-xs uppercase tracking-widest">
+                        Luminous Reception</div>
+                </div>
+                <!-- Video 10 -->
+                <div class="relative rounded-[2.5rem] overflow-hidden shadow-xl border border-white/5 bg-black aspect-[4/5] group"
+                    data-aos="fade-up" data-aos-delay="100">
+                    <video class="w-full h-full object-contain" controls preload="metadata">
+                        <source src="./videos/video10.mp4" type="video/mp4">
+                    </video>
+                    <div
+                        class="absolute bottom-6 left-6 bg-black/60 backdrop-blur-md text-white px-5 py-2 rounded-2xl font-bold text-xs uppercase tracking-widest">
+                        Birthday Celebration</div>
+                </div>
+                <!-- Video 4 -->
+                <div class="relative rounded-[2.5rem] overflow-hidden shadow-xl border border-white/5 bg-black aspect-[4/5] group"
+                    data-aos="fade-up">
+                    <video class="w-full h-full object-contain" controls preload="metadata">
+                        <source src="./videos/video4.mp4" type="video/mp4">
+                    </video>
+                    <div
+                        class="absolute bottom-6 left-6 bg-black/60 backdrop-blur-md text-white px-5 py-2 rounded-2xl font-bold text-xs uppercase tracking-widest">
+                        Sangeet Beats Flow</div>
+                </div>
+                <!-- Video 11 -->
+                <div class="relative rounded-[2.5rem] overflow-hidden shadow-xl border border-white/5 bg-black aspect-[4/5] group"
+                    data-aos="fade-up" data-aos-delay="100">
+                    <video class="w-full h-full object-contain" controls preload="metadata">
+                        <source src="./videos/video11.mp4" type="video/mp4">
+                    </video>
+                    <div
+                        class="absolute bottom-6 left-6 bg-black/60 backdrop-blur-md text-white px-5 py-2 rounded-2xl font-bold text-xs uppercase tracking-widest">
+                        High-End Stage Setup</div>
+                </div>
+                <!-- Video 3 -->
+                <div class="relative rounded-[2.5rem] overflow-hidden shadow-xl border border-white/5 bg-black aspect-[4/5] group"
+                    data-aos="fade-up">
+                    <video class="w-full h-full object-contain" controls preload="metadata">
+                        <source src="./videos/video3.mp4" type="video/mp4">
+                    </video>
+                    <div
+                        class="absolute bottom-6 left-6 bg-black/60 backdrop-blur-md text-white px-5 py-2 rounded-2xl font-bold text-xs uppercase tracking-widest">
+                        Bride Entrance Energy</div>
+                </div>
+                <!-- Video 1 -->
+                <div class="relative rounded-[2.5rem] overflow-hidden shadow-xl border border-white/5 bg-black aspect-[4/5] group"
+                    data-aos="fade-up" data-aos-delay="100">
+                    <video class="w-full h-full object-contain" controls preload="metadata" poster="./images/G 2.jpeg">
+                        <source src="./videos/video1.mp4" type="video/mp4">
+                    </video>
+                    <div
+                        class="absolute bottom-6 left-6 bg-black/60 backdrop-blur-md text-white px-5 py-2 rounded-2xl font-bold text-xs uppercase tracking-widest">
+                        Professional Event Highlight</div>
+                </div>
+                <!-- Video 7 -->
+                <div class="relative rounded-[2.5rem] overflow-hidden shadow-xl border border-gray-100 bg-black aspect-[4/5] group"
+                    data-aos="fade-up">
+                    <video class="w-full h-full object-contain" controls preload="metadata">
+                        <source src="./videos/video7.mp4" type="video/mp4">
+                    </video>
+                    <div
+                        class="absolute bottom-6 left-6 bg-black/60 backdrop-blur-md text-white px-5 py-2 rounded-2xl font-bold text-xs uppercase tracking-widest">
+                        Traditional Sacred Fire</div>
+                </div>
+                <!-- Video 8 -->
+                <div class="relative rounded-[2.5rem] overflow-hidden shadow-xl border border-white/5 bg-black aspect-[4/5] group"
+                    data-aos="fade-up" data-aos-delay="100">
+                    <video class="w-full h-full object-contain" controls preload="metadata">
+                        <source src="./videos/video8.mp4" type="video/mp4">
+                    </video>
+                    <div
+                        class="absolute bottom-6 left-6 bg-black/60 backdrop-blur-md text-white px-5 py-2 rounded-2xl font-bold text-xs uppercase tracking-widest">
+                        Floral Masterpiece</div>
+                </div>
+                <!-- Video 9 -->
+                <div class="relative rounded-[2.5rem] overflow-hidden shadow-xl border border-white/5 bg-black aspect-[4/5] group"
+                    data-aos="fade-up">
+                    <video class="w-full h-full object-contain" controls preload="metadata">
+                        <source src="./videos/video9.mp4" type="video/mp4">
+                    </video>
+                    <div
+                        class="absolute bottom-6 left-6 bg-black/60 backdrop-blur-md text-white px-4 py-1.5 rounded-xl font-bold text-[10px] uppercase tracking-widest">
+                        Public Event Grandeur</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Grid -->
+    <section class="py-24">
+        <div class="max-w-7xl mx-auto px-4">
+
+            <!-- Filters -->
+            <div class="flex flex-wrap justify-center gap-4 mb-16" data-aos="fade-up">
+                <button
+                    class="px-6 py-2 rounded-full bg-primary text-white font-bold shadow-lg shadow-red-500/30">All</button>
+                <button
+                    class="px-6 py-2 rounded-full bg-zinc-900 text-gray-400 hover:bg-primary hover:text-white shadow-sm border border-white/5 font-medium transition-all">Wedding</button>
+                <button
+                    class="px-6 py-2 rounded-full bg-zinc-900 text-gray-400 hover:bg-primary hover:text-white shadow-sm border border-white/5 font-medium transition-all">Birthday</button>
+                <button
+                    class="px-6 py-2 rounded-full bg-zinc-900 text-gray-400 hover:bg-primary hover:text-white shadow-sm border border-white/5 font-medium transition-all">Corporate</button>
+                <button
+                    class="px-6 py-2 rounded-full bg-zinc-900 text-gray-400 hover:bg-primary hover:text-white shadow-sm border border-white/5 font-medium transition-all">Sangeet</button>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                <!-- Gallery Items (Using Real Event Images) -->
+                <div class="group relative overflow-hidden rounded-3xl aspect-[4/5] shadow-sm hover:shadow-2xl transition-all"
+                    data-aos="zoom-in" data-aos-delay="100">
+                    <img src="./images/G 1.jpeg"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-8">
+                        <p class="text-primary font-bold text-xs uppercase tracking-widest mb-1">Institutional Events
+                        </p>
+                        <h4 class="text-white font-black text-xl font-outfit uppercase">Grand Fest Entrance</h4>
+                    </div>
+                </div>
+
+                <div class="group relative overflow-hidden rounded-3xl aspect-[4/5] shadow-sm hover:shadow-2xl transition-all"
+                    data-aos="zoom-in" data-aos-delay="200">
+                    <img src="./images/G 2.jpeg"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-8">
+                        <p class="text-primary font-bold text-xs uppercase tracking-widest mb-1">Corporate Events</p>
+                        <h4 class="text-white font-black text-xl font-outfit uppercase">Stage Production</h4>
+                    </div>
+                </div>
+
+                <div class="group relative overflow-hidden rounded-3xl aspect-[4/5] shadow-sm hover:shadow-2xl transition-all"
+                    data-aos="zoom-in" data-aos-delay="300">
+                    <img src="./images/G 3.jpeg"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-8">
+                        <p class="text-primary font-bold text-xs uppercase tracking-widest mb-1">School Functions</p>
+                        <h4 class="text-white font-black text-xl font-outfit uppercase">Annual Day Special</h4>
+                    </div>
+                </div>
+
+                <div class="group relative overflow-hidden rounded-3xl aspect-[4/5] shadow-sm hover:shadow-2xl transition-all"
+                    data-aos="zoom-in" data-aos-delay="100">
+                    <img src="./images/G 4.jpeg"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-8">
+                        <p class="text-primary font-bold text-xs uppercase tracking-widest mb-1">Corporate Events</p>
+                        <h4 class="text-white font-black text-xl font-outfit uppercase">Grand Office Entrance</h4>
+                    </div>
+                </div>
+
+                <div class="group relative overflow-hidden rounded-3xl aspect-[4/5] shadow-sm hover:shadow-2xl transition-all"
+                    data-aos="zoom-in" data-aos-delay="200">
+                    <img src="./images/G 5.jpeg"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-8">
+                        <p class="text-primary font-bold text-xs uppercase tracking-widest mb-1">Corporate Branding</p>
+                        <h4 class="text-white font-black text-xl font-outfit uppercase">Custom Floral Logo</h4>
+                    </div>
+                </div>
+
+                <div class="group relative overflow-hidden rounded-3xl aspect-[4/5] shadow-sm hover:shadow-2xl transition-all"
+                    data-aos="zoom-in" data-aos-delay="300">
+                    <img src="./images/G 6.jpeg"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-8">
+                        <p class="text-primary font-bold text-xs uppercase tracking-widest mb-1">Business Inauguration
+                        </p>
+                        <h4 class="text-white font-black text-xl font-outfit uppercase">Professional Event Flow</h4>
+                    </div>
+                </div>
+
+                <div class="group relative overflow-hidden rounded-3xl aspect-[4/5] shadow-sm hover:shadow-2xl transition-all"
+                    data-aos="zoom-in" data-aos-delay="100">
+                    <img src="./images/G 7.jpeg"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-8">
+                        <p class="text-primary font-bold text-xs uppercase tracking-widest mb-1">Public Events</p>
+                        <h4 class="text-white font-black text-xl font-outfit uppercase">Exhibition Setup</h4>
+                    </div>
+                </div>
+
+                <div class="group relative overflow-hidden rounded-3xl aspect-[4/5] shadow-sm hover:shadow-2xl transition-all"
+                    data-aos="zoom-in" data-aos-delay="200">
+                    <img src="./images/G 8.jpeg"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-8">
+                        <p class="text-primary font-bold text-xs uppercase tracking-widest mb-1">Birthday Bliss</p>
+                        <h4 class="text-white font-black text-xl font-outfit uppercase">Themed Party Box</h4>
+                    </div>
+                </div>
+
+                <div class="group relative overflow-hidden rounded-3xl aspect-[4/5] shadow-sm hover:shadow-2xl transition-all"
+                    data-aos="zoom-in" data-aos-delay="300">
+                    <img src="./images/G 9.jpeg"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-8">
+                        <p class="text-primary font-bold text-xs uppercase tracking-widest mb-1">Corporate Promo</p>
+                        <h4 class="text-white font-black text-xl font-outfit uppercase">Mall Branding</h4>
+                    </div>
+                </div>
+
+                <div class="group relative overflow-hidden rounded-3xl aspect-[4/5] shadow-sm hover:shadow-2xl transition-all"
+                    data-aos="zoom-in" data-aos-offset="0">
+                    <img src="./images/G 10.jpeg"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-8">
+                        <p class="text-primary font-bold text-xs uppercase tracking-widest mb-1">Grand Finale</p>
+                        <h4 class="text-white font-black text-xl font-outfit uppercase">Premium Decor Finished</h4>
+                    </div>
+                </div>
+
+                <div class="group relative overflow-hidden rounded-3xl aspect-[4/5] shadow-sm hover:shadow-2xl transition-all"
+                    data-aos="zoom-in" data-aos-delay="100">
+                    <img src="./images/G 11.jpeg"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-8">
+                        <p class="text-primary font-bold text-xs uppercase tracking-widest mb-1">Royal Reception</p>
+                        <h4 class="text-white font-black text-xl font-outfit uppercase">Luxurious Stage Decor</h4>
+                    </div>
+                </div>
+
+                <div class="group relative overflow-hidden rounded-3xl aspect-[4/5] shadow-sm hover:shadow-2xl transition-all"
+                    data-aos="zoom-in" data-aos-delay="200">
+                    <img src="./images/G 12.jpeg"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-8">
+                        <p class="text-primary font-bold text-xs uppercase tracking-widest mb-1">Elegant Evening</p>
+                        <h4 class="text-white font-black text-xl font-outfit uppercase">Atmospheric Lighting</h4>
+                    </div>
+                </div>
+
+                <div class="group relative overflow-hidden rounded-3xl aspect-[4/5] shadow-sm hover:shadow-2xl transition-all"
+                    data-aos="zoom-in" data-aos-delay="300">
+                    <img src="./images/G 13.jpeg"
+                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-8">
+                        <p class="text-primary font-bold text-xs uppercase tracking-widest mb-1">Traditional Events</p>
+                        <h4 class="text-white font-black text-xl font-outfit uppercase">Sacred Lamp Decoration</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-12 text-gray-400 font-medium">
+                <p>Developing more galleries... Stay tuned!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-black pt-24 pb-8 border-t border-white/5">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+            <div class="col-span-1 md:col-span-1">
+                <img class="h-16 w-auto mb-6 rounded-2xl" src="./logo.jpeg" alt="Logo">
+                <p class="text-white/50 text-sm leading-relaxed">
+                    Nikhil Events & Entertainments is a leading event management company known for creativity and
+                    excellence.
+                </p>
+                <div class="flex gap-4 mt-8">
+                    <a href="https://www.facebook.com/share/1KZkNT2V2g/" target="_blank"
+                        class="w-10 h-10 bg-white/5 border border-white/10 rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition-all shadow-sm">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-facebook">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                        </svg>
+                    </a>
+                    <a href="https://www.instagram.com/nikhilevents?utm_source=qr&igsh=NzV5ZWp2ZXFpdjRp" target="_blank"
+                        class="w-10 h-10 bg-white/5 border border-white/10 rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition-all shadow-sm">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-instagram">
+                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                            <line x1="17.5" x2="17.51" y1="6.5" y2="6.51" />
+                        </svg>
+                    </a>
+                    <a href="https://youtube.com/@nikhileventsindia?si=X_FjUxrZo5pA2e2E" target="_blank"
+                        class="w-10 h-10 bg-white/5 border border-white/10 rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition-all shadow-sm">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-youtube">
+                            <path
+                                d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 2-2 60.11 60.11 0 0 1 15 0 2 2 0 0 1 2 2 24.12 24.12 0 0 1 0 10 2 2 0 0 1-2 2 60.11 60.11 0 0 1-15 0 2 2 0 0 1-2-2z" />
+                            <polyline points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div>
+                <h5 class="text-white font-bold mb-6">Quick Links</h5>
+                <ul class="space-y-4 text-white/50 text-sm">
+                    <li><a href="index.html" class="hover:text-primary transition-colors">Home</a></li>
+                    <li><a href="about.html" class="hover:text-primary transition-colors">About Us</a></li>
+                    <li><a href="services.html" class="hover:text-primary transition-colors">Services</a></li>
+                    <li><a href="gallery.html" class="hover:text-primary transition-colors">Gallery</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h5 class="text-white font-bold mb-6">Our Services</h5>
+                <ul class="space-y-4 text-white/50 text-sm">
+                    <li><a href="services.html" class="hover:text-primary transition-colors">Wedding Planning</a></li>
+                    <li><a href="services.html" class="hover:text-primary transition-colors">Birthday Decorations</a>
+                    </li>
+                    <li><a href="services.html" class="hover:text-primary transition-colors">Corporate Events</a></li>
+                    <li><a href="services.html" class="hover:text-primary transition-colors">Sangeet Events</a></li>
+                    <li><a href="services.html" class="hover:text-primary transition-colors">Artist Management</a></li>
+                    <li><a href="services.html" class="hover:text-primary transition-colors">Destination Weddings</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h5 class="text-white font-bold mb-6">Contact Info</h5>
+                <ul class="space-y-4 text-white/50 text-sm">
+                    <li class="flex gap-3">
+                        <i data-lucide="map-pin" class="w-5 h-5 text-primary"></i>
+                        <span>WeWork Krishe Emerald, Kondapur Main Road, <br>Laxmi Cyber City, Whitefields,
+                            Hyderabad</span>
+                    </li>
+                    <li class="flex gap-3">
+                        <i data-lucide="phone" class="w-5 h-5 text-primary"></i>
+                        <span>+91 9966997141</span>
+                    </li>
+                    <li class="flex gap-3">
+                        <i data-lucide="mail" class="w-5 h-5 text-primary"></i>
+                        <span>nikhilevents141@gmail.com</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 pt-8 border-t border-white/5 text-center">
+            <p class="text-white/30 text-xs tracking-widest">© 2026 Nikhil Events & Entertainments. All rights reserved.</p>
+            <p class="text-white/20 text-[10px] mt-2 tracking-widest uppercase font-medium">Developed by <a href="https://www.codtechitsolutions.com/" target="_blank" class="text-primary hover:text-white transition-all">CODTECH IT SOLUTIONS</a></p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/919966997141?text=Hello,%20I%20want%20to%20enquire%20about%20your%20event%20services"
+        target="_blank"
+        class="group fixed bottom-8 right-8 bg-[#25D366] text-white p-4 rounded-full shadow-2xl z-50 hover:scale-110 active:scale-90 transition-all flex items-center justify-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 16 16">
+            <path
+                d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.601 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007-.133 0-.347.05-.53.25-.183.198-.71.696-.71 1.7 0 1.004.73 1.976.83 2.112.1.135 1.43 2.3 3.515 3.122 2.085.823 2.085.548 2.46.513.375-.034 1.17-.478 1.334-.94.166-.46.166-.855.116-.94-.05-.085-.18-.135-.378-.235z" />
+        </svg>
+        <span
+            class="max-w-0 overflow-hidden whitespace-nowrap group-hover:max-w-xs transition-all duration-500 ml-0 group-hover:ml-2 font-bold text-sm">Chat
+            with Us</span>
+    </a>
+
+    <script type="module" src="./src/main.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+
+</body>
+
+</html>

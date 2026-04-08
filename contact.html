@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en" class="overflow-x-hidden">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Nikhil Events & Entertainments</title>
+    <link rel="stylesheet" href="./src/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Outfit:wght@500;700;900&display=swap" rel="stylesheet">
+</head>
+<body class="bg-black font-sans text-white overflow-x-hidden w-full">
+
+    <!-- Navbar -->
+    <nav class="fixed top-0 w-full bg-black/80 backdrop-blur-md z-50 border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20 flex-nowrap">
+                <div class="flex-shrink-0 flex items-center gap-2">
+                    <img class="h-9 sm:h-12 w-auto rounded-xl" src="./logo.jpeg" alt="Nikhil Events Logo">
+                    <div class="flex flex-col">
+                        <span class="text-primary font-outfit font-bold text-base sm:text-xl leading-none">NIKHIL EVENTS</span>
+                        <span class="text-[7px] sm:text-[10px] tracking-[0.2em] text-gray-500 uppercase leading-none mt-1">& Entertainments</span>
+                    </div>
+                </div>
+                
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="text-gray-300 hover:text-primary font-medium transition-colors">Home</a>
+                    <a href="about.html" class="text-gray-300 hover:text-primary font-medium transition-colors">About</a>
+                    <a href="services.html" class="text-gray-300 hover:text-primary font-medium transition-colors">Services</a>
+                    <a href="gallery.html" class="text-gray-300 hover:text-primary font-medium transition-colors">Gallery</a>
+                    <a href="contact.html" class="text-primary font-semibold transition-colors">Contact</a>
+                    <a href="contact.html" class="bg-primary text-white px-6 py-2.5 rounded-full font-bold shadow-lg shadow-red-500/30 hover:scale-105 active:scale-95 transition-all">Book Now</a>
+                </div>
+
+                <div class="md:hidden">
+                    <button id="mobile-menu-btn" class="text-gray-700">
+                        <i data-lucide="menu" class="w-8 h-8"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-black border-t border-white/10 py-4 px-4 space-y-3">
+            <a href="index.html" class="block text-gray-300 hover:text-primary font-medium">Home</a>
+            <a href="about.html" class="block text-gray-300 hover:text-primary font-medium">About</a>
+            <a href="services.html" class="block text-gray-300 hover:text-primary font-medium">Services</a>
+            <a href="gallery.html" class="block text-gray-300 hover:text-primary font-medium">Gallery</a>
+            <a href="contact.html" class="block text-gray-300 hover:text-primary font-medium">Contact</a>
+            <a href="contact.html" class="block text-center bg-primary text-white px-6 py-3 rounded-xl font-bold">Book Now</a>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="pt-32 pb-16 bg-black border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-4 text-center" data-aos="fade-down">
+            <h1 class="text-4xl md:text-7xl font-black text-white font-outfit mb-4">Contact Us</h1>
+            <p class="text-xl text-white/50 max-w-2xl mx-auto">Let's plan your next big celebration together.</p>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="py-24 bg-black">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+                
+                <!-- Contact Info & Form -->
+                <div data-aos="fade-right">
+                    <h2 class="text-3xl font-black font-outfit text-white mb-8">Send us a Message</h2>
+                    <form id="contact-form" class="space-y-6 mb-12">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-sm font-bold text-white/60 mb-2">Name</label>
+                                <input type="text" id="field-name" class="w-full px-5 py-4 bg-zinc-950 border border-white/10 rounded-2xl focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all placeholder:text-white/20 text-white" placeholder="Enter your name" required>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-bold text-white/60 mb-2">Phone Number</label>
+                                <input type="tel" id="field-phone" class="w-full px-5 py-4 bg-zinc-950 border border-white/10 rounded-2xl focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all placeholder:text-white/20 text-white" placeholder="Enter phone number" required>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-sm font-bold text-white/60 mb-2">Service Required</label>
+                                <select id="field-service" class="w-full px-5 py-4 bg-zinc-950 border border-white/10 rounded-2xl focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all appearance-none cursor-pointer text-white" required>
+                                    <option value="" disabled selected>Select service type</option>
+                                    <option value="wedding">Wedding Planning</option>
+                                    <option value="birthday">Birthday Decorations</option>
+                                    <option value="corporate">Corporate Events</option>
+                                    <option value="sangeet">Sangeet Events</option>
+                                    <option value="destination">Destination Weddings</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-bold text-white/60 mb-2">Event Date</label>
+                                <input type="date" id="field-date" class="w-full px-5 py-4 bg-zinc-950 border border-white/10 rounded-2xl focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all text-white" required>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-sm font-bold text-white/60 mb-2">Estimated Guest Count</label>
+                                <input type="number" id="field-guests" class="w-full px-5 py-4 bg-zinc-950 border border-white/10 rounded-2xl focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all placeholder:text-white/20 text-white" placeholder="e.g. 200" required>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-bold text-white/60 mb-2">Event Venue / Location</label>
+                                <input type="text" id="field-venue" class="w-full px-5 py-4 bg-zinc-950 border border-white/10 rounded-2xl focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all placeholder:text-white/20 text-white" placeholder="Area / Location (Across South India)" required>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label class="block text-sm font-bold text-white/60 mb-2">Additional Requirements</label>
+                            <textarea id="field-requirements" rows="4" class="w-full px-5 py-4 bg-zinc-950 border border-white/10 rounded-2xl focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all placeholder:text-white/20 text-white" placeholder="Tell us about your theme, specific colors, or any special requests..." required></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-primary text-white py-5 rounded-2xl font-black text-lg shadow-xl shadow-red-500/30 hover:scale-[1.02] active:scale-95 transition-all">Submit Inquiry</button>
+                    </form>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <a href="tel:+919966997141" class="p-6 bg-zinc-950 rounded-2xl border border-white/10 flex items-center gap-4 hover:shadow-lg transition-all">
+                            <div class="w-12 h-12 bg-black rounded-xl shadow-sm flex items-center justify-center text-primary">
+                                <i data-lucide="phone" class="w-6 h-6"></i>
+                            </div>
+                            <div>
+                                <p class="text-[10px] text-white/40 font-bold uppercase tracking-widest">Call Us Now</p>
+                                <p class="font-bold text-white">+91 9966997141</p>
+                            </div>
+                        </a>
+                        <a href="https://wa.me/919966997141" target="_blank" class="p-6 bg-zinc-950 rounded-2xl border border-white/10 flex items-center gap-4 hover:shadow-lg transition-all">
+                            <div class="w-12 h-12 bg-black rounded-xl shadow-sm flex items-center justify-center text-[#25D366]">
+                                <i data-lucide="message-circle" class="w-6 h-6"></i>
+                            </div>
+                            <div>
+                                <p class="text-[10px] text-white/40 font-bold uppercase tracking-widest">Chat with Us</p>
+                                <p class="font-bold text-white">+91 9966997141</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Map & Address -->
+                <div data-aos="fade-left">
+                    <h2 class="text-3xl font-black font-outfit text-white mb-8">Visit Our Office</h2>
+                    <div class="bg-zinc-950 p-3 rounded-[2.5rem] shadow-xl border border-white/10 overflow-hidden mb-8 h-[400px]">
+                        <!-- Google Maps Embed -->
+                        <iframe 
+                            src="https://www.google.com/maps?q=WeWork+Krishe+Emerald+Kondapur+Hyderabad&hl=en&z=15&output=embed" 
+                            class="w-full h-full rounded-[2rem]" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                    <div class="p-8 bg-primary rounded-3xl text-white shadow-xl relative overflow-hidden group">
+                        <div class="relative z-10">
+                            <i data-lucide="map-pin" class="w-8 h-8 mb-4"></i>
+                            <h4 class="font-bold text-xl mb-2">Hyderabad Headquarters</h4>
+                            <p class="opacity-90 leading-relaxed mb-6">WeWork Krishe Emerald, Ground Floor, Kondapur Main Road, Laxmi Cyber City, Whitefields, Kondapur, Hyderabad, Telangana 500081</p>
+                            <a href="https://www.google.com/maps/search/?api=1&query=WeWork+Krishe+Emerald+Kondapur+Hyderabad" target="_blank" class="inline-flex items-center gap-2 bg-white text-primary px-8 py-3 rounded-full font-bold text-sm uppercase tracking-widest hover:bg-zinc-100 transition-all shadow-lg active:scale-95">
+                                <i data-lucide="navigation" class="w-5 h-5"></i> Get Directions
+                            </a>
+                        </div>
+                        <div class="absolute -bottom-10 -right-10 w-40 h-40 bg-white/10 rounded-full blur-3xl transition-all group-hover:scale-150"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-black pt-24 pb-8 border-t border-white/5">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+            <div class="col-span-1 md:col-span-1">
+                <img class="h-16 w-auto mb-6 rounded-2xl" src="./logo.jpeg" alt="Logo">
+                <p class="text-gray-500 text-sm leading-relaxed">
+                    Nikhil Events & Entertainments is a leading event management company known for creativity and excellence.
+                </p>
+                <div class="flex gap-4 mt-8">
+                    <a href="https://www.facebook.com/share/1KZkNT2V2g/" target="_blank" class="w-10 h-10 bg-white/5 border border-white/10 rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition-all shadow-sm">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                    </a>
+                    <a href="https://www.instagram.com/nikhilevents?utm_source=qr&igsh=NzV5ZWp2ZXFpdjRp" target="_blank" class="w-10 h-10 bg-white/5 border border-white/10 rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition-all shadow-sm">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.51"/></svg>
+                    </a>
+                    <a href="https://youtube.com/@nikhileventsindia?si=X_FjUxrZo5pA2e2E" target="_blank" class="w-10 h-10 bg-white/5 border border-white/10 rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition-all shadow-sm">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-youtube"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 2-2 60.11 60.11 0 0 1 15 0 2 2 0 0 1 2 2 24.12 24.12 0 0 1 0 10 2 2 0 0 1-2 2 60.11 60.11 0 0 1-15 0 2 2 0 0 1-2-2z"/><polyline points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg>
+                    </a>
+                </div>
+            </div>
+            
+            <div>
+                <h5 class="text-white font-bold mb-6">Quick Links</h5>
+                <ul class="space-y-4 text-white/50 text-sm">
+                    <li><a href="index.html" class="hover:text-primary transition-colors">Home</a></li>
+                    <li><a href="about.html" class="hover:text-primary transition-colors">About Us</a></li>
+                    <li><a href="services.html" class="hover:text-primary transition-colors">Services</a></li>
+                    <li><a href="gallery.html" class="hover:text-primary transition-colors">Gallery</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h5 class="text-white font-bold mb-6">Our Services</h5>
+                <ul class="space-y-4 text-white/50 text-sm">
+                    <li><a href="services.html" class="hover:text-primary transition-colors">Wedding Planning</a></li>
+                    <li><a href="services.html" class="hover:text-primary transition-colors">Birthday Decorations</a></li>
+                    <li><a href="services.html" class="hover:text-primary transition-colors">Corporate Events</a></li>
+                    <li><a href="services.html" class="hover:text-primary transition-colors">Sangeet Events</a></li>
+                    <li><a href="services.html" class="hover:text-primary transition-colors">Artist Management</a></li>
+                    <li><a href="services.html" class="hover:text-primary transition-colors">Destination Weddings</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h5 class="text-white font-bold mb-6">Contact Info</h5>
+                <ul class="space-y-4 text-white/50 text-sm">
+                    <li class="flex gap-3">
+                        <i data-lucide="map-pin" class="w-5 h-5 text-primary"></i>
+                        <span>WeWork Krishe Emerald, Kondapur Main Road, <br>Laxmi Cyber City, Whitefields, Hyderabad</span>
+                    </li>
+                    <li class="flex gap-3">
+                        <i data-lucide="phone" class="w-5 h-5 text-primary"></i>
+                        <span>+91 9966997141</span>
+                    </li>
+                    <li class="flex gap-3">
+                        <i data-lucide="mail" class="w-5 h-5 text-primary"></i>
+                        <span>nikhilevents141@gmail.com</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="max-w-7xl mx-auto px-4 pt-8 border-t border-white/5 text-center">
+            <p class="text-white/30 text-xs tracking-widest">© 2026 Nikhil Events & Entertainments. All rights reserved.</p>
+            <p class="text-white/20 text-[10px] mt-2 tracking-widest uppercase font-medium">Developed by <a href="https://www.codtechitsolutions.com/" target="_blank" class="text-primary hover:text-white transition-all">CODTECH IT SOLUTIONS</a></p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/919966997141?text=Hello,%20I%20want%20to%20enquire%20about%20your%20event%20services" target="_blank" class="group fixed bottom-8 right-8 bg-[#25D366] text-white p-4 rounded-full shadow-2xl z-[9999] hover:scale-110 active:scale-90 transition-all flex items-center justify-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.601 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007-.133 0-.347.05-.53.25-.183.198-.71.696-.71 1.7 0 1.004.73 1.976.83 2.112.1.135 1.43 2.3 3.515 3.122 2.085.823 2.085.548 2.46.513.375-.034 1.17-.478 1.334-.94.166-.46.166-.855.116-.94-.05-.085-.18-.135-.378-.235z"/>
+        </svg>
+        <span class="max-w-0 overflow-hidden whitespace-nowrap group-hover:max-w-xs transition-all duration-500 ml-0 group-hover:ml-2 font-bold text-sm">Chat with Us</span>
+    </a>
+
+    <script type="module" src="./src/main.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        lucide.createIcons();
+
+        // WhatsApp Form Integration
+        document.getElementById('contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get values
+            const name = document.getElementById('field-name').value;
+            const phone = document.getElementById('field-phone').value;
+            const service = document.getElementById('field-service').value;
+            const date = document.getElementById('field-date').value;
+            const guests = document.getElementById('field-guests').value;
+            const venue = document.getElementById('field-venue').value;
+            const requirements = document.getElementById('field-requirements').value;
+
+            // Format message
+            const message = `*New Inquiry - Nikhil Events*%0A%0A` +
+                            `*Name:* ${name}%0A` +
+                            `*Phone:* ${phone}%0A` +
+                            `*Service:* ${service}%0A` +
+                            `*Date:* ${date}%0A` +
+                            `*Guests:* ${guests}%0A` +
+                            `*Venue:* ${venue}%0A%0A` +
+                            `*Requirements:* ${requirements}`;
+
+            // WhatsApp link
+            const whatsappUrl = `https://wa.me/919966997141?text=${message}`;
+            
+            // Open in new tab
+            window.open(whatsappUrl, '_blank');
+        });
+    </script>
+</body>
+</html>
